@@ -2,52 +2,94 @@ Schedule
 ========
 
 
-Programming for economists:
-Budget - tijd:
-EBE: 6u hc (1 groep) , 6u hc+ (1 groep), 6u wc (3groepen), 30 units extra waarvan 20 ontwikkeling
-Eco: 2groepen
 
-Week 1:
+questions
+---------
 
-*Plenaire intro en opzet vak  - voorstelling docenten etc.
---> eerstejaars studenten: dus handig
-*Do It Yourself installatie van software
-*Q&A software install + help desk --> Werkcolleges roosteren en TA's inschakelen.
+If you have questions/comments about this course, go to the `issues
+page <https://github.com/janboone/open_source_for_economists/issues>`_
+open a new issue (with the green "New issue" button) and type your
+question. Use a title that is informative (e.g. not "question", but
+"question about assignment 2"). Go to the next box ("Leave a comment")
+and type your question. Then click on "Submit new issue". We will
+answer your question as quickly as possible.
 
-Week 2:
+The advantages of the issue page include:
 
-*HC sessie - Git/Github/Markdown
-*Werkcollege - TA's - Tutorial doorlopen Git/Github/Markdown
-*Oefeningen - not graded but Pass/Fail (1)
+* if you have a question, other students may have it as well; in this
+  way we answer the questions in a way that everyone can see it. Also
+  before asking the question, you may want to check whether it was
+  asked/answered before on the issue page
+* we answer your question more quickly than when you email us
+* you increase your knowledge of github!
 
-Week 3:
-*HC sessie - Intro python
-*Werkcollege - TA's -  Review assignment Week 2 - begin tutorial Python
+Only when you need to include privately sensitive information ("my cat
+has passed away"), you can send an email.
 
-Week 4:
-*No lecture:
-*Datacamp: Do it Yourself: Into to Python -  Pass/Fail grade (2)
+In order to post issues, you need to create a github account (which
+you need anyway to follow this course).
 
+Note that if your question is related to another issue, you can react
+to the earlier issue and leave a comment in that "conversation".
 
-Week 5:
-*WC:  problems encountered by students with Python (feedback from datacamp) + simple exercise
-*Assignment Python
+plan
+----
 
-Week 6:
-*Hand in assignment Python - Pass/Fail Grade (3)
-*Datacamp: Do it yourself: Intro R - Pass/Fail grade (4)
-
-Week 7:
-*WC: review Python assignment - review intro R
-*Datacamp: Intermediate R  - Pass/Fail grade (5)
-
-Week 8:
-*WC: review intermediate R.
-*Something else? Visualization / cool assignment intro?
+The plan for this course in the academic year 2016/2017 is as follows:
 
 
 
 
+Week 1
+~~~~~~
+
+* Plenaire intro en opzet vak  - voorstelling docenten etc.
+* Do It Yourself installatie van software
+* Q&A software install + help desk
+
+Week 2
+~~~~~~
+
+* HC sessie - Git/Github/Markdown
+* Werkcollege - TA's - Tutorial doorlopen Git/Github/Markdown
+* Oefeningen - not graded but Pass/Fail (1)
+
+Week 3
+~~~~~~
+
+* HC sessie - Intro python
+* Werkcollege - TA's -  Review assignment Week 2 - begin tutorial Python
+
+Week 4
+~~~~~~
+  
+* No lecture:
+* Datacamp: Do it Yourself: Intro to Python -  Pass/Fail grade (2)
+
+
+Week 5
+~~~~~~
+
+* WC:  problems encountered by students with Python (feedback from datacamp) + simple exercise
+* Assignment Python
+
+Week 6
+~~~~~~
+
+* Hand in assignment Python - Pass/Fail Grade (3)
+* Datacamp: Do it yourself: Intro R - Pass/Fail grade (4)
+
+Week 7
+~~~~~~
+
+* WC: review Python assignment - review intro R
+* Datacamp: Intermediate R  - Pass/Fail grade (5)
+
+Week 8
+~~~~~~
+
+* WC: review intermediate R.
+* Visualization / cool assignment intro?
 
 
 
@@ -57,21 +99,8 @@ Week 8:
 
 
 
-Grading:
-First sit:
-X pass or fail assignments:
--5x pass: 2.5 points
--4x pass: 2 points
--3x pass: 1.5 points
--2x pass: 1 point
--1x pass: 0.5 point
 
-Final is an assignment on 8, with tasks to be conducted in R/Markdown/Git/Python. Of the 8 points to be earned, 5 points can be earned through exercises/requirements which are in line with what has been covered in class (hc/wc/assignments/datacamp).
-2 points can be earned by carrying out a small project.
-1 point can be earned by carrying out a challenging project
 
-Resit:
-Grade is either resit assignment (same structure as first try) or weighted average resit assignment + participation grade: whatever is highest.
 
 
 
