@@ -7,12 +7,18 @@ questions
 ---------
 
 If you have questions/comments about this course, go to the `issues
-page <https://github.com/janboone/open_source_for_economists/issues>`_
+page <https://github.com/janboone/programming-for-economists/issues>`_
 open a new issue (with the green "New issue" button) and type your
 question. Use a title that is informative (e.g. not "question", but
 "question about assignment 2"). Go to the next box ("Leave a comment")
 and type your question. Then click on "Submit new issue". We will
 answer your question as quickly as possible.
+
+Information that we need to answer your question:
+
+* say whether you are an ECO or EBE student
+* mention the group number of your tutorial and/or the name of your tutorial teacher
+* explain your question
 
 The advantages of the issue page include:
 
