@@ -20,7 +20,16 @@ Make a repository "programming_assignments".
 
 The address of this repository in webform at ???
 
-The readme file in this repository contains a link to each assignment
+Webform asks for:
+
+* github account name
+* html address of your repository "programming_assignments"
+* DataCamp account name
+* your ANR
+* your uvt-email address
+
+  
+The readme file in the "programming_assignments" repository contains a link to each assignment. Hence, after you have uploaded an assignment, adjust the readme file to include the html address of the jupyter notebook that you have just uploaded.
 
 todo: add video on how files are put on github
 

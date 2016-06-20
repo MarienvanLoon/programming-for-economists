@@ -49,7 +49,9 @@ Required installs for this course:
   some reason you cannot get anaconda installed, ask us in class and
   we will help.
 * todo: install R
-* todo: R for the notebook
+* todo: `R for the notebook <http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html>`_ and `this page <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
+
+
   
 If you have installed all this: congratulations, you are done! If you experienced any problems, ask us in class. Below we give some software resources, that you can install; but you do not have to do this.
 
