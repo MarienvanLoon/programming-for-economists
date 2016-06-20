@@ -17,7 +17,8 @@ In 2016-2017 this course is taught by:
 
 * Jan Boone
 * Misja Mikkers
-
+* Louis Raes
+  
 Make sure that you read the Rules of the Game if you want to attend
 this course!
 
@@ -29,6 +30,9 @@ Contents:
    :maxdepth: 1
 
    schedule			  
-
-			  
-
+   rules
+   install
+   markdown
+   github
+   python			  
+   R
