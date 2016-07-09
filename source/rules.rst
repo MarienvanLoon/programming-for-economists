@@ -2,6 +2,10 @@ Rules of the game
 =================
 
 
+
+
+
+
 Grading:
 First sit:
 X pass or fail assignments:

@@ -16,6 +16,8 @@ complete yet and some links to screencasts do not work**
 In 2016-2017 this course is taught by:
 
 * Jan Boone
+* Santiago Bohorquez Correa
+* Clemens Fiedler
 * Misja Mikkers
 * Louis Raes
   
