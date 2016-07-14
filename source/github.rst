@@ -38,3 +38,17 @@ questions
 ---------
 
 As explained ?here? you also use github if you have questions about the course.
+
+
+assginments
+-----------
+
+
+`uploading your assignments with drag-and-drop using a browser <https://tilburgutube.uvt.nl/asset/player/ZgVnJfSTQWPDobL3UDGgmB7m>`_
+
+
+
+
+`uploading your assignments using the shell or terminal  <https://tilburgutube.uvt.nl/asset/player/u2Wa4MIbMrNegaOjJR042sYG>`_
+
+
