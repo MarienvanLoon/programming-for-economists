@@ -8,7 +8,10 @@ mentioned for this week. To illustrate, for the first week, go to the
 the `datacamp website
 <https://www.datacamp.com/courses/intro-to-python-for-data-science>`_
 and go through chapter 1 Python Basics. That is, watch the videos and
-do the exercises on line.
+do the exercises on line. Note that we get feedback from Datacamp on whether or
+not you actually did the exercises and we will grade this using a Pass/Fail
+grade (see below).
+
 
 
 plan
@@ -17,8 +20,8 @@ plan
 The plan for this course in the academic year 2016/2017 is as follows:
 
 
-Week 1
-~~~~~~
+Week 1: installing software
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
@@ -32,75 +35,82 @@ Week 1
   * Q&A software install + help desk
 
 
-Week 2
-~~~~~~
+Week 2: git/github/markdown
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
   * Datacamp: Do it Yourself: Python Lists: Pass/Fail grade (1)
+  * github:
+  * markdown:
+  * fill in google form
 
-* Lecture: Git/Github/Markdown
-* Tutorial: TA's - Tutorial doorlopen Git/Github/Markdown
-
-  
+* Tutorial: Git/Github/Markdown
 
 
-Week 3
-~~~~~~
+Week 3: python
+~~~~~~~~~~~~~~
 
 * Homework:
 
-  * assignment - not graded but Pass/Fail (2)
-  * Datacamp: Do it Yourself: Functions and Packages
+  * Datacamp: Do it Yourself: Functions and Packages: Pass/Fail grade (2)
+
 
 * Lecture: Intro python
 
 
-  
+
 Week 4
 ~~~~~~
 
 * Homework:
 
   * Datacamp: Do it Yourself: Numpy
-  
-* Tutorial: Review assignment Week 3 - tutorial Python
-* No lecture
+  * assignment: upload a python notebook on github: Pass/Fail grade (3)
 
-  
+* Tutorial: Review assignment Week 4 - tutorial Python
+
+
+
 
 Week 5
 ~~~~~~
 
 * Homework:
 
-  * start with assignment Python
+  * Datacamp: Do it yourself: Intro R - Pass/Fail grade (4)
+  * assignment Python - Pass/Fail Grade (5)
 
-* Tutorial:  problems encountered by students with Python (feedback from datacamp)
-* No lecture
-  
+* Tutorial:
+
+  * problems encountered by students with Python (feedback from datacamp)
+  * assignment week 5
+
+
+* Lecture: Introduction to R
+
 
 Week 6
 ~~~~~~
 
 * Homework:
 
-  * Hand in assignment Python - Pass/Fail Grade (3)
-  * Datacamp: Do it yourself: Intro R - Pass/Fail grade (4)
 
-* Lecture: Introduction to R
-	
+  * Datacamp: Intermediate R  - Pass/Fail grade (6)
+
+* Tutorial: review intro R
+* Lecture: visualization with R
+
 Week 7
 ~~~~~~
 
 * Homework:
 
-  * Datacamp: Intermediate R  - Pass/Fail grade (5)
+  * Datacamp:
 
-* Tutorial: review Python assignment - review intro R
+* Lecture:
 
-* Lecture: visualization with R
-  
+
 
 Week 8
 ~~~~~~
@@ -108,10 +118,10 @@ Week 8
 * Tutorial: review intermediate R.
 
 
-Week 9
-~~~~~~
+Final Assignment
+~~~~~~~~~~~~~~~~
 
-* Homework: hand in R assignment
+* publish your final assignment on github at Friday July 7th, 2017 at the latest.
 
 
 
@@ -152,13 +162,3 @@ you need anyway to follow this course).
 
 Note that if your question is related to another issue, you can react
 to the earlier issue and leave a comment in that "conversation".
-
-
-
-
-
-
-
-
-
-
