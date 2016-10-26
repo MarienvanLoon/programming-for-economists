@@ -4,15 +4,16 @@
 *** name
 *** ANR
 *** ECO/EBE
+*** identifier tutorial group
 *** github link to README file with links
 *** identifier to link with Datacamp data on who did what
 
 
 
-** update [[file:install.rst::Installing%20the%20software][install rst]]
-** update [[file:github.rst::Github][github rst]]
-** update [[file:markdown.rst::Markdown%20in%20the%20notebook][markdown rst]]
-** update [[file:python.rst::Learning%20Python][python rst]]
+** DONE update [[file:install.rst::Installing%20the%20software][install rst]]
+** TODO update [[file:markdown.rst::Markdown%20in%20the%20notebook][markdown rst]]
+** TODO update [[file:github.rst::Github][github rst]]
+** TODO update [[file:python.rst::Learning%20Python][python rst]]
 
 ** create intro lecture
 ** create python intro lecture/python lecture notebook
