@@ -9,13 +9,15 @@
 *** identifier to link with Datacamp data on who did what
 
 
+** students work in groups for assignments? 2/3 students?
+**
 
 ** DONE update [[file:install.rst::Installing%20the%20software][install rst]]
 ** TODO update [[file:markdown.rst::Markdown%20in%20the%20notebook][markdown rst]]
 ** TODO update [[file:github.rst::Github][github rst]]
 ** TODO update [[file:python.rst::Learning%20Python][python rst]]
 
-** create intro lecture
+** create intro lecture: rules of the game, assignments, datacamp, overview lectures and tutorials
 ** create python intro lecture/python lecture notebook
 ** create first python assignment to be put on github (week 4)
 ** tutorial material python week 4
