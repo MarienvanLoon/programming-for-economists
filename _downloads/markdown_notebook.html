@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>python_lecture</title>
+<title>markdown_notebook</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -176,24 +176,104 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction-to-python">Introduction to python<a class="anchor-link" href="#Introduction-to-python">&#182;</a></h1><p>You learn the details of python programming from <a href="https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics?ex=1">datacamp</a>.</p>
-<p>Here we use python in the jupyter notebook. You also use the notebook for your assignments that you upload on github.</p>
-<p>In the notebook, you evaluate (or "run") the python code by pressing the <code>SHIFT</code> and <code>ENTER</code> keys simultaneously.</p>
-<p>The first part of the notebook will be explained during the lecture. The assignments will be discussed in the tutorial. Note that you need to upload your assignments before your tutorial! Github registers the time at which you upload your file and we use this timestamp.</p>
-<h2 id="Why-do-we-learn-python?">Why do we learn python?<a class="anchor-link" href="#Why-do-we-learn-python?">&#182;</a></h2><p>You may have used Excel before and think that this is all you need to know to compute stuff. However, as the next tweet illustrates, Excel is not so great.</p>
+<h1 id="Markdown">Markdown<a class="anchor-link" href="#Markdown">&#182;</a></h1><p>By pressing the <code>ESC</code> key and <code>m</code>, you turn a python cell into a markdown cell. Press <code>ENTER</code> and start typing.</p>
+<p>By pressing <code>SHIFT</code> and <code>ENTER</code> at the same time, you evaluate a cell and the markdown will be typeset.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The markdown syntax is quite simple. Use "#" as a heading (see the cell above). Then "##" is a subheading, like this:</p>
+<p><a name="subheading"></a></p>
+<h2 id="subheading">subheading<a class="anchor-link" href="#subheading">&#182;</a></h2><p>Note that in markdown, we have added a marker above the <code>## subheading</code>. Below we will refer to this marker so that we can navigate in the file.</p>
+<p>The best way to learn markdown is to look at this file as jupyter notebook, double click on a cell to see what markdown sytax we used to create the effect.</p>
+<p>If you want more than we do here, simply use google. Say you want to have a youtube video in your notebook. Then google "markdown youtube video". We will give you the solution below.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>If you want to type equations, use <a href="https://www.latex-project.org/">latex</a>. You do not need to install latex for use in the notebooks.</p>
+<p>Using latex, you can type equations like this:</p>
+\begin{equation}
+a^2+b^2=c^2
+\end{equation}<p>Or you can have the variable $x$ typed in math in line.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can do greek letters, like $\alpha, \beta, \gamma$.</p>
+<p>If you need a certain symbol, google "latex emptyset" to find: $\emptyset$.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can include a link --like the latex link above-- with the syntax <code>[description of link](actual link with http:// etc)</code></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">This webpage</a> gives an overview of the syntax you can use in markdown.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can add images to your notebook, like this:</p>
+<p><img src="https://i.ytimg.com/vi/Xg8M-8BqTGs/maxresdefault.jpg" alt="alt text" title="Fun with Dr. Who"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Or a bit more seriously (where we use the "html magic" of the jupyter notebook). No need to worry about this if you find this difficult. It is just to show that the possibilities are endless with the notebook. If something cannot be done in markdown, you can always look for a solution in html.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">%%</span><span class="k">html</span>
 
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Relying on Excel for important calculations is like driving drunk: no matter how carefully you do it, a wreck is likely. &lt;a href=&quot;https://twitter.com/hashtag/reproducibility?src=hash&quot;&gt;#reproducibility&lt;/a&gt;&lt;/p&gt;&amp;mdash; Philip Stark (@philipbstark) &lt;a href=&quot;https://twitter.com/philipbstark/status/498683914592862208&quot;&gt;August 11, 2014&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;iframe src=&quot;https://plot.ly/~janboone/56.embed&quot;
+        height=&quot;600&quot; width=&quot;100%&quot;
+        scrolling=&quot;no&quot; seamless=&quot;seamless&quot;
+        frameBorder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
 </pre></div>
 
 </div>
@@ -208,8 +288,11 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea ">
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Relying on Excel for important calculations is like driving drunk: no matter how carefully you do it, a wreck is likely. <a href="https://twitter.com/hashtag/reproducibility?src=hash">#reproducibility</a></p>&mdash; Philip Stark (@philipbstark) <a href="https://twitter.com/philipbstark/status/498683914592862208">August 11, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe src="https://plot.ly/~janboone/56.embed"
+        height="600" width="100%"
+        scrolling="no" seamless="seamless"
+        frameBorder="0">
+</iframe>
 </div>
 
 </div>
@@ -223,7 +306,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Hence, there is value in learning a proper programming language. And python is a great language to learn!</p>
+<p>This figure is interactive. Click on lines in the legend to make lines disappear or appear again. Hovering with the cursor over the lines gives additional information.</p>
 
 </div>
 </div>
@@ -233,8 +316,32 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Bargaining-model">Bargaining model<a class="anchor-link" href="#Bargaining-model">&#182;</a></h2><p>In this lecture, we focus on an economic application programmed in python. We look at a bargaining model where two players can divide a "pie" of size $\bar x >0$. One player makes an offer $x \in [0,\bar x]$ and the other player can either accept or reject. If the other player accepts the offer, she gets $x$ and the player making the offer gets the rest of the pie $\bar x -x$.</p>
-<p>We first consider this bargaining problem in a one shot game. One player, let's denote this player 1, makes an offer to player 2. Then we consider this game with several periods, where players 1 and 2 make offers alternatingly.</p>
+<p>Tables work as well:</p>
+<table>
+<thead><tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">1</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
@@ -244,381 +351,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="One-period-model">One period model<a class="anchor-link" href="#One-period-model">&#182;</a></h2><p>Recall that $\bar x$ denotes the size of the pie that players 1 and 2 can distribute. Here we work with $\bar x =10$. The offers that players can make are integer numbers between 0 and 10. Thus $x \in \{0,1,2,...,9,10\}$.</p>
-<p>In this notebook we use the numpy library that we import:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We define the smallest offer someone can make (0) and the highest offer ($\bar x =10$). Then we create a list (actually a numpy array) with integer numbers between 0 and 10. To understand the syntax, google on "numpy arange".</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">min_offer</span> <span class="o">=</span> <span class="mf">0.0</span>
-<span class="n">max_offer</span> <span class="o">=</span> <span class="mf">10.0</span>
-<span class="n">offers</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">min_offer</span><span class="p">,</span><span class="n">max_offer</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>This is what the variable <code>offers</code> looks like:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">offers</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([  0.,   1.,   2.,   3.,   4.,   5.,   6.,   7.,   8.,   9.,  10.])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We assume that players can either accept or reject an offer $x$. If a player accepts $x$, she receives a payoff equal to $x$. If she rejects $x$, she receives her outside option $x^o$. The idea is that instead of dealing with the player making her an offer, she can do "something else". This something else gives her $x^o$.</p>
-<p>Similarly, the player making the offer: she receives $\bar x - x$ if the offer is accepted. If the offer is not accepted, this player also receives her outside option.</p>
-<p>In the game considered here, player 1 makes the offer and player 2 decides whether to accept of reject this offer. Let the outside option of player $i$ be denoted by $x^o_i$, $i \in \{1,2\}$.</p>
-<p>When should player 2 accept the offer $x$? She should accept if $x$ gives her at least her outside option. If $x < x^o_2$, she is better off rejecting the offer as this will give her $x_2^o$ which exceeds the offer $x$.</p>
-<p>We define a function <code>accept_offer</code> in python which determines whether an offer is acceptable or not. This function takes two arguments: the offer that is made and the outside option of the player who decides whether or not to accept the offer. If the offer exceeds the outside option, she accepts the offer.</p>
-<p>In this function, we define the <code>accept</code> decision as a boolean. If you forgot about this, google "python boolean". In the code below, we will use that <code>FALSE</code> in python equals 0 while <code>TRUE</code> equals 1.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="n">your_outside_option</span><span class="p">):</span>
-    <span class="n">accept</span> <span class="o">=</span> <span class="p">(</span><span class="n">offer</span> <span class="o">&gt;=</span> <span class="n">your_outside_option</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">accept</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Hence, if player 2 receives an offer of 4 and has an outside option equal to 5, she rejects the offer:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">accept_offer</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>False</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>To figure out which offer player 1 should make to player 2, we plot the profits of player 1 as a function of the offers made and the outside option of player 2. In order to plot these profits, we import <a href="https://plot.ly/">plotly</a>.</p>
-<p>You may have to install plotly on your system. Here you can find the <a href="https://plot.ly/python/getting-started/">instructions to install plotly.</a></p>
-<p>Once it is installed, we can import plotly.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">plotly.offline</span> <span class="k">import</span> <span class="n">download_plotlyjs</span><span class="p">,</span> <span class="n">init_notebook_mode</span><span class="p">,</span> <span class="n">plot</span><span class="p">,</span> <span class="n">iplot</span>
-<span class="kn">from</span> <span class="nn">plotly.graph_objs</span> <span class="k">import</span> <span class="n">Bar</span><span class="p">,</span> <span class="n">Scatter</span><span class="p">,</span> <span class="n">Figure</span><span class="p">,</span> <span class="n">Layout</span>
-<span class="n">init_notebook_mode</span><span class="p">(</span><span class="n">connected</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># run at the start of every ipython notebook to use plotly.offline</span>
-                     <span class="c1"># this injects the plotly.js source files into the notebook</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-<script>requirejs.config({paths: { 'plotly': ['https://cdn.plot.ly/plotly-latest.min']},});if(!window.Plotly) {{require(['plotly'],function(plotly) {window.Plotly=plotly;});}}</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>First, let's make a simple plot using <code>iplot</code>. We specify the points on the horizontal axis ("x") with the list <code>offers</code> and then give a list with coordinates of the vertical axis ("y"). The y-coordinate gives the payoff of the offfer. If the offer is rejected, player 1 gets 0 (and is probably better off with the outside option). If the offer $x$ is accepted, player 1 receives $\bar x -x$. Note that we use here that <code>accept_offer</code> equals 1 (0) when <code>TRUE</code> (<code>FALSE</code>).</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">iplot</span><span class="p">([{</span><span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="n">offers</span><span class="p">,</span> <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="n">max_offer</span><span class="o">-</span><span class="n">offer</span><span class="p">)</span><span class="o">*</span><span class="n">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span> <span class="k">for</span> <span class="n">offer</span> <span class="ow">in</span> <span class="n">offers</span><span class="p">]}])</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-<div id="ff064a14-f57a-4402-bc31-d55d5e1d941e" style="height: 525; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("ff064a14-f57a-4402-bc31-d55d5e1d941e", [{"y": [0.0, 0.0, 0.0, 0.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0, 0.0], "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Hence, the best offer that you can make is the lowest offer that is still accepted by the other player. Hence, player 1 offers player 2 the outside option $x_2^o$.</p>
-<p>With <code>iplot</code> we can actually make more interesting graphs than the one above. We can add text to the horizontal and vertical axes to explain what they represent (offer and profit, resp.). We can add a title to the graph. We can generare the profit for different values of the outside option by using <code>for outside in [6,7,8,9]</code>. Hence, <code>iplot</code> will create the data-scatter for each of these values of the outside option.</p>
-<p>This graph is interactive. If you click on one of the lines in the legend, the line disappears or reappears. Also, hovering with your cursor over the points gives you some additional information.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">iplot</span><span class="p">({</span>
-    <span class="s1">&#39;data&#39;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="n">Scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">offers</span><span class="p">,</span>
-                <span class="n">y</span><span class="o">=</span><span class="p">[(</span><span class="n">max_offer</span><span class="o">-</span><span class="n">offer</span><span class="p">)</span><span class="o">*</span><span class="n">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="n">outside</span><span class="p">)</span> <span class="k">for</span> <span class="n">offer</span> <span class="ow">in</span> <span class="n">offers</span><span class="p">],</span>
-                <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;other outside offer &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">outside</span><span class="p">))</span>
-    <span class="k">for</span> <span class="n">outside</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">]],</span>
-        <span class="s1">&#39;layout&#39;</span><span class="p">:</span> <span class="n">Layout</span><span class="p">(</span>
-    <span class="n">title</span><span class="o">=</span> <span class="s1">&#39;profit of offer maker&#39;</span><span class="p">,</span>
-    <span class="n">hovermode</span><span class="o">=</span> <span class="s1">&#39;closest&#39;</span><span class="p">,</span>
-    <span class="n">xaxis</span><span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-        <span class="n">title</span><span class="o">=</span> <span class="s1">&#39;offer&#39;</span><span class="p">,</span>
-        <span class="n">ticklen</span><span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
-        <span class="n">zeroline</span><span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
-        <span class="n">gridwidth</span><span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
-    <span class="p">),</span>
-    <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
-        <span class="n">title</span><span class="o">=</span> <span class="s1">&#39;profit&#39;</span><span class="p">,</span>
-        <span class="n">ticklen</span><span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
-        <span class="n">gridwidth</span><span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
-    <span class="p">))</span>
-<span class="p">},</span> <span class="n">show_link</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-<div id="268e03ab-36d4-44ce-9d23-dc7510df274a" style="height: 525; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("268e03ab-36d4-44ce-9d23-dc7510df274a", [{"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 3.0, 2.0, 1.0, 0.0], "type": "scatter", "name": "other outside offer 6", "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 2.0, 1.0, 0.0], "type": "scatter", "name": "other outside offer 7", "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 1.0, 0.0], "type": "scatter", "name": "other outside offer 8", "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0], "type": "scatter", "name": "other outside offer 9", "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}], {"yaxis": {"gridwidth": 2, "title": "profit", "ticklen": 5}, "title": "profit of offer maker", "xaxis": {"zeroline": false, "title": "offer", "gridwidth": 2, "ticklen": 5}, "hovermode": "closest"}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Now we can determine the optimal offer made by player 1. From the list <code>profits</code> choose the highest number and denote this by <code>max_profit</code>. Then <code>max_index</code> captures the position in <code>profits</code> of this <code>max_profit</code>. With this <code>max_index</code> we can figure out what the offer is that leads to this highest profit: <code>offers[max_index]</code>.</p>
-<p>Finally, we need to check whether the max. profit that player 1 can earn --if her offer is accepted-- exceeds her outside option.</p>
-<p>The function <code>make_offer</code> does these things and returns a list with the optimal offer ($-1$ if the optimal offer leads to a lower payoff than player 1's outside option).</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">make_offer</span><span class="p">(</span><span class="n">your_outside_option</span><span class="p">,</span><span class="n">other_outside_option</span><span class="p">):</span>
-    <span class="n">profits</span> <span class="o">=</span> <span class="p">[(</span><span class="n">max_offer</span><span class="o">-</span><span class="n">offer</span><span class="p">)</span><span class="o">*</span><span class="n">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="n">other_outside_option</span><span class="p">)</span> <span class="k">for</span> <span class="n">offer</span> <span class="ow">in</span> <span class="n">offers</span><span class="p">]</span>
-    <span class="n">max_profit</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">profits</span><span class="p">)</span>
-    <span class="n">max_index</span> <span class="o">=</span> <span class="n">profits</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">max_profit</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">max_profit</span> <span class="o">&gt;=</span> <span class="n">your_outside_option</span><span class="p">:</span>
-        <span class="n">your_offer</span> <span class="o">=</span> <span class="n">offers</span><span class="p">[</span><span class="n">max_index</span><span class="p">]</span>
-        <span class="n">your_profit</span> <span class="o">=</span> <span class="n">max_offer</span><span class="o">-</span><span class="n">offers</span><span class="p">[</span><span class="n">max_index</span><span class="p">]</span>
-        <span class="n">other_profit</span> <span class="o">=</span> <span class="n">offers</span><span class="p">[</span><span class="n">max_index</span><span class="p">]</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">your_offer</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="c1"># no offer is made</span>
-        <span class="n">your_profit</span> <span class="o">=</span> <span class="n">your_outside_option</span>
-        <span class="n">other_profit</span> <span class="o">=</span> <span class="n">other_outside_option</span>
-    <span class="k">return</span> <span class="n">your_offer</span><span class="p">,</span> <span class="n">your_profit</span><span class="p">,</span> <span class="n">other_profit</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Consider the case where players 1 and 2 do not have an outside option. That is, $x_1^o=x_2^o=0$. Then player 1 offers $x=0$ to player 2. Player 2 accepts this offer (outside option is not better than this). Player 1 receives a payoff equal to 10 and player 2 receives 0.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">make_offer</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[25]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(0.0, 10.0, 0.0)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>This outcome is very asymmetric and extreme. Intuitively, this is due to the fact that only player 1 can make offers. A natural extension is to allow player 2 to make an offer as well.</p>
+<p>As promised, we would give you <a href="#subheading">a link to the subheading</a> above.</p>
 
 </div>
 </div>
@@ -628,143 +361,11 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Two-period-model">Two period model<a class="anchor-link" href="#Two-period-model">&#182;</a></h2><p>Consider a two period version of the bargaining model above. Player 1 can make an offer $x_1$ in the first period. If this offer is accepted by player 2, the game is finished. If player 2 rejects the offer, then we move to the second stage in which player 2 is allowed to make an offer $x_2$ to player 1. Player 1 can accept or reject this offer. If player 1 accepts, her payoff equals $x_2$ and player 2's payoff equals $\bar x - x_2$.</p>
-<p>Payoffs are discounted with discount factor $\delta \in \langle 0,1 \rangle$. Hence, if player 1's offer in the first period is rejected, while player 2's offer in the second period is accepted, players 1 and 2's payoffs equal $\delta x_2, \delta (\bar x - x_2)$ resp.</p>
-<p>Assume that the (exogenous) outside option for both players equals 0.</p>
-<p>Player 1 makes an offer $x$ to player 2 in the first period. If this offer is accepted, 2 gets $x$ and 1 receives $\bar x - x$ and the game is over.</p>
-<p>If player 2 rejects 1's offer, the game moves to the second (and last) period. In this period, player 2 can make the offer. What offer will player 2 make?</p>
+<p>If you googled "markdown youtube", you will have found that it is not possible to have a youtube video in your notebook. But we can get close. If you click on the image, you can enjoy the video.</p>
+<p><a href="http://www.youtube.com/watch?v=3p4MZJsexEs"><img src="http://img.youtube.com/vi/3p4MZJsexEs/0.jpg" alt="IMAGE ALT TEXT HERE"></a></p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">delta</span> <span class="o">=</span> <span class="mf">0.9</span>
-<span class="n">outside_options</span> <span class="o">=</span> <span class="p">{}</span> <span class="c1"># dictionary of outside options as a function (key) of period</span>
-<span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># first element in the list is 1&#39;s outside option, </span>
-                          <span class="c1"># second element 2&#39;s outside option in period 2</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In period 2, player 2 makes the offer:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">offer2</span> <span class="o">=</span> <span class="n">make_offer</span><span class="p">(</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
-<span class="n">outside_options</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">delta</span><span class="o">*</span><span class="n">offer2</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">delta</span><span class="o">*</span><span class="n">offer2</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">make_offer</span><span class="p">(</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[28]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(9.0, 1.0, 9.0)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Assignment-for-tutorial-week-4">Assignment for tutorial week 4<a class="anchor-link" href="#Assignment-for-tutorial-week-4">&#182;</a></h2><p>Do this for 3 and 4 period model</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Tutorial-week-4">Tutorial week 4<a class="anchor-link" href="#Tutorial-week-4">&#182;</a></h1><p>review assignment above</p>
-<p>introduce assignment below</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Assigment-for-tutorial-week-5">Assigment for tutorial week 5<a class="anchor-link" href="#Assigment-for-tutorial-week-5">&#182;</a></h2><p>Plot the payoffs of the players of players 1 and 2 as a function of the number of rounds $n$ that this game is played.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="mi">4</span><span class="o">/</span><span class="mi">2</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="mi">4</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[52]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>True</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">

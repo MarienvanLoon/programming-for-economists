@@ -1,6 +1,9 @@
 Markdown in the notebook
 ========================
 
+
+
+
 We teach you to program python and R in the jupyter notebook. However, for other
 people to understand what you are doing, it is important that you explain each
 step in text that is readable to other human beings, even ones that have no
@@ -24,6 +27,21 @@ to your assignments. Note that for this course, there is no need to create a CV.
 
 
 
+Lecture
+-------
+
+week 1
+
+For the lecture we will go through :download:`this notebook
+<markdown_notebook.ipynb>`.
+
+The html version of the notebook can be found `here. <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
+
+
+Assignments
+-----------
+
+Markdown/github assignment
 
 
 

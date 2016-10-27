@@ -48,8 +48,8 @@ Week 2: git/github/markdown
 * Tutorial: Git/Github/Markdown
 
 
-Week 3: python
-~~~~~~~~~~~~~~
+Week 3: python introduction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
@@ -60,8 +60,8 @@ Week 3: python
 
 
 
-Week 4
-~~~~~~
+Week 4: python (continued)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
@@ -73,8 +73,8 @@ Week 4
 
 
 
-Week 5
-~~~~~~
+Week 5: R introduction
+~~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
@@ -90,8 +90,8 @@ Week 5
 * Lecture: Introduction to R
 
 
-Week 6
-~~~~~~
+Week 6: R visualization
+~~~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
@@ -101,8 +101,8 @@ Week 6
 * Tutorial: review intro R
 * Lecture: visualization with R
 
-Week 7
-~~~~~~
+Week 7: R (continued)
+~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
@@ -112,8 +112,8 @@ Week 7
 
 
 
-Week 8
-~~~~~~
+Week 8: R (continued)
+~~~~~~~~~~~~~~~~~~~~~
 
 * Tutorial: review intermediate R.
 

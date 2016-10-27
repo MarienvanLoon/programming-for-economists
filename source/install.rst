@@ -47,6 +47,9 @@ Required installs for this course:
   following pages to set this up: `R for the notebook <http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html>`_ and `this page <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
 
 
+Optional install
+----------------
+
 If you want to work with github from the command line, you need a decent command
 prompt/terminal/shell to work with. Note that this is optional. Most operating
 systems and browsers allow you to drag files onto github, which is simpler to

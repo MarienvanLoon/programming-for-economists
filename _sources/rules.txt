@@ -2,11 +2,19 @@ Rules of the game
 =================
 
 
+Datacamp
+~~~~~~~~
+
+Assignments
+~~~~~~~~~~~
+
 
 
 
 
 Grading:
+~~~~~~~~
+
 First sit:
 X pass or fail assignments:
 -5x pass: 2.5 points
@@ -21,5 +29,3 @@ Final is an assignment on 8, with tasks to be conducted in R/Markdown/Git/Python
 
 Resit:
 Grade is either resit assignment (same structure as first try) or weighted average resit assignment + participation grade: whatever is highest.
-
-
