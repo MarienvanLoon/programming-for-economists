@@ -26,11 +26,16 @@ Week 1: installing software
 * Homework:
 
   * Do It Yourself: install software
+  * enroll in `datacamp <https://www.datacamp.com/>`_ **using your Tilburg
+    University email address**
+  * it is important that you use your Tilburg University email address as it
+    gives you access to premium content (for which you have to pay otherwise)
   * Datacamp: Do it Yourself: Python Basics
 
 * Lecture:
 
   * Introduction to the courses and the teachers
+  * `Introduction to Markdown <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
   * Introduction to Github
   * Q&A software install + help desk
 
@@ -41,11 +46,10 @@ Week 2: git/github/markdown
 * Homework:
 
   * Datacamp: Do it Yourself: Python Lists: Pass/Fail grade (1)
-  * github:
-  * markdown:
-  * fill in google form
+  * the assignment :ref:`here. <week2>`
+  * fill in the google form
 
-* Tutorial: Git/Github/Markdown
+* Tutorial: Git/Github/Markdown and assignment week 2
 
 
 Week 3: python introduction
@@ -54,7 +58,6 @@ Week 3: python introduction
 * Homework:
 
   * Datacamp: Do it Yourself: Functions and Packages: Pass/Fail grade (2)
-
 
 * Lecture: Intro python
 
@@ -66,11 +69,13 @@ Week 4: python (continued)
 * Homework:
 
   * Datacamp: Do it Yourself: Numpy
-  * assignment: upload a python notebook on github: Pass/Fail grade (3)
+  * the assignment :ref:`here. <week4>`
+  * upload your python notebook for assignment Week 4 on github: Pass/Fail grade (3)
 
-* Tutorial: Review assignment Week 4 - tutorial Python
+* Tutorial:
 
-
+  * Review assignment Week 4 - tutorial Python
+  * problems encountered by students with Python (feedback from datacamp)
 
 
 Week 5: R introduction
@@ -79,11 +84,11 @@ Week 5: R introduction
 * Homework:
 
   * Datacamp: Do it yourself: Intro R - Pass/Fail grade (4)
-  * assignment Python - Pass/Fail Grade (5)
+  * the assignment :ref:`here. <week5>`
+  * upload your python notebook for assignment Week 5 on github: Pass/Fail grade (5)
 
 * Tutorial:
 
-  * problems encountered by students with Python (feedback from datacamp)
   * assignment week 5
 
 

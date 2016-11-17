@@ -1,6 +1,7 @@
 Learning Python
 ===============
 
+.. _python
 
 Datacamp
 --------
@@ -20,4 +21,25 @@ The html version of the notebook can be found `here. <http://janboone.github.io/
 Assignments
 -----------
 
-Python assignments for weeks 4 and 5 can be found in the notebook.
+.. _week4
+
+week 4
+~~~~~~
+
+
+* Download :download:`this notebook <Assignment_week_4.ipynb>`
+* fill in the notebook
+* upload the notebook to github
+* add a link to this notebook in your README file on github
+
+
+.. _week5
+
+week 5
+~~~~~~
+
+
+* Download :download:`this notebook <Assignment_week_5.ipynb>`
+* fill in the notebook
+* upload the notebook to github
+* add a link to this notebook in your README file on github

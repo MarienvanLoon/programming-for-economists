@@ -1,8 +1,7 @@
 Markdown in the notebook
 ========================
 
-
-
+.. _markdown
 
 We teach you to program python and R in the jupyter notebook. However, for other
 people to understand what you are doing, it is important that you explain each
@@ -26,7 +25,6 @@ to your assignments. Note that for this course, there is no need to create a CV.
 
 
 
-
 Lecture
 -------
 
@@ -38,11 +36,15 @@ For the lecture we will go through :download:`this notebook
 The html version of the notebook can be found `here. <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
 
 
+.. _week2
+
 Assignments
 -----------
 
-Markdown/github assignment
-
+* Download :download:`this notebook <Assignment_week_2.ipynb>`
+* fill in the notebook
+* upload the notebook to github
+* add a link to this notebook in your README file on github
 
 
 tutorials

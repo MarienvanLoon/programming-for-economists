@@ -8,7 +8,8 @@ Datacamp
 Assignments
 ~~~~~~~~~~~
 
-
+You can do assignments alone or together with another student from the same
+tutorial group as yours.
 
 
 

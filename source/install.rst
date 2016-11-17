@@ -33,16 +33,16 @@ Required installs for this course:
 	may be useful and
 	`<http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup>`_.
 
-* The program language that we use for this course is python_ which we
-  will use with the ipython_ or `Jupyter <https://jupyter.org/>`_ notebook interface. You can install these
-  things separately, but it is easier to install everything
-  together. The best way to do this is to use the anaconda_
-  distribution. Make sure to install python 3.0. See the
-  quantitative_ economics website on how to install anaconda. If for
-  some reason you cannot get anaconda installed, ask us in class and
-  we will help.
 * Install R from the `website <https://www.r-project.org/>`_; you can `download
   R here. <https://cran.r-project.org/>`_
+
+* The other programming language that we use for this course is python_ which we
+  will use with the ipython_ or `Jupyter <https://jupyter.org/>`_ notebook
+  interface. You can install these things separately, but it is easier to
+  install everything together. The best way to do this is to use the anaconda_
+  distribution. Make sure to install python 3.0. See the quantitative_ economics
+  website on how to install anaconda. If for some reason you cannot get anaconda
+  installed, ask us in class and we will help.
 * We will be using R from the Jupyter notebook. Follow instructions at the
   following pages to set this up: `R for the notebook <http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html>`_ and `this page <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
 
