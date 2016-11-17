@@ -1,7 +1,7 @@
 Learning Python
 ===============
 
-.. _python
+.. _python:
 
 Datacamp
 --------
@@ -21,7 +21,7 @@ The html version of the notebook can be found `here. <http://janboone.github.io/
 Assignments
 -----------
 
-.. _week4
+.. _week4:
 
 week 4
 ~~~~~~
@@ -33,7 +33,7 @@ week 4
 * add a link to this notebook in your README file on github
 
 
-.. _week5
+.. _week5:
 
 week 5
 ~~~~~~

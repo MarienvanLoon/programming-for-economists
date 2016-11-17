@@ -1,7 +1,7 @@
 Markdown in the notebook
 ========================
 
-.. _markdown
+.. _markdown:
 
 We teach you to program python and R in the jupyter notebook. However, for other
 people to understand what you are doing, it is important that you explain each
@@ -36,7 +36,7 @@ For the lecture we will go through :download:`this notebook
 The html version of the notebook can be found `here. <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
 
 
-.. _week2
+.. _week2:
 
 Assignments
 -----------
