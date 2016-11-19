@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Introduction Programming</title>
+<meta name="author" content="(Jan Boone)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/sky.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Introduction Programming</h1><h2 class="author">Jan Boone</h2><p class="date">Created: 2016-11-19 Sat 18:28</p>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-orgb09a950">Introduction</a></li>
+<li><a href="#/slide-org3a6cc78">Github</a></li>
+<li><a href="#/slide-orgc70b7c8">markdown</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+
+
+<section>
+<section id="slide-orgb09a950">
+<h2 id="orgb09a950">Introduction</h2>
+<div class="outline-text-2" id="text-orgb09a950">
+</div></section>
+<section id="slide-org595c53d">
+<h3 id="org595c53d">Don&rsquo;t panic</h3>
+<ul>
+<li>this is a programming course</li>
+<li>we know that many of you are not too keen on computers (beyond MS Office)</li>
+<li>this will be an introduction to open source software</li>
+<li>it will not become too sophisticated</li>
+<li>it is meant for everyone to understand</li>
+<li>especially, if you never did any programming before</li>
+
+</ul>
+
+
+</section>
+<section id="slide-orge853696">
+<h3 id="orge853696">Why this course?</h3>
+<ul>
+<li>mainly to teach you to use your computer better</li>
+<li>to be able to use open source (&ldquo;free&rdquo;) software</li>
+<li>to solve problems together with readable documentation on how you solved
+it (&ldquo;reproducible research&rdquo;)</li>
+<li>on this last point, office products like excel score rather badly</li>
+
+</ul>
+
+
+</section>
+<section id="slide-orgeef5191">
+<h3 id="orgeef5191">Who teaches this course?</h3>
+<ul>
+<li>In 2016-2017 this course is taught by:
+
+<ul>
+<li>Santiago Bohorquez Correa</li>
+<li>Jan Boone</li>
+<li>Clemens Fiedler</li>
+<li>Misja Mikkers</li>
+<li>Louis Raes</li>
+<li>Minke Remmerswaal</li>
+
+</ul></li>
+
+</ul>
+
+
+</section>
+<section id="slide-org643317c">
+<h3 id="org643317c">How do we teach this course?</h3>
+<ul>
+<li>on line lectures on Datacamp</li>
+<li>lectures</li>
+<li>tutorials: with plenty of time to ask questions</li>
+<li>schedule can be found <a href="http://janboone.github.io/programming-for-economists/schedule.html">here</a></li>
+<li>we track your progress on datacamp</li>
+<li>assignments</li>
+
+</ul>
+
+
+</section>
+<section id="slide-orge041fac">
+<h3 id="orge041fac">Information about the course</h3>
+<ul>
+<li>all information about the course can be found <a href="http://janboone.github.io/programming-for-economists/index.html">here</a></li>
+
+</ul>
+
+</section>
+<section id="slide-orgb48b011">
+<h3 id="orgb48b011">Your grade</h3>
+<ul>
+<li>see <a href="http://janboone.github.io/programming-for-economists/rules.html">Rules of the Game</a> to see how your grade is determined</li>
+<li>it depends on:
+
+<ul>
+<li>your progress on Datacamp</li>
+<li>assignments you do on your own or together with 1 other student (group
+of two, at max.)</li>
+<li>8 pass/fail grades</li>
+<li>grade of your final assignment</li>
+
+</ul></li>
+
+</ul>
+
+
+</section>
+<section id="slide-org9271e58">
+<h3 id="org9271e58">Something went wrong?</h3>
+<ul>
+<li>we asked you to <a href="http://janboone.github.io/programming-for-economists/install.html">install some software</a></li>
+<li>perhaps something went wrong</li>
+<li>at the end of this lecture, we will walk around to solve your problems</li>
+<li>also during the tutorials you can ask questions about this</li>
+
+</ul>
+
+</section>
+<section id="slide-org34d0b2c">
+<h3 id="org34d0b2c">Github and Datacamp</h3>
+<ul>
+<li>you need to sign up for github and Datacamp!</li>
+<li>for details see <a href="http://janboone.github.io/programming-for-economists/index.html#important">the heading Important</a></li>
+<li>note the <b>deadline</b> for filling in the webform!</li>
+<li>if you miss the deadline, you will have to pay for premium content on
+Datacamp yourself</li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org3a6cc78">
+<h2 id="org3a6cc78">Github</h2>
+<div class="outline-text-2" id="text-org3a6cc78">
+</div></section>
+<section id="slide-org02f62d1">
+<h3 id="org02f62d1">What is github?</h3>
+<ul>
+<li>github allows you to store files &ldquo;in the cloud&rdquo;</li>
+<li>unless you use a private repository, these files are public</li>
+<li>this is how we can see your assignments</li>
+<li>it allows you to a lot more (version control, collaborate on line etc.)</li>
+<li>but we will not use this more advanced stuff for this course</li>
+<li>look <a href="http://janboone.github.io/programming-for-economists/github.html">here</a> to see how to create a repository `assignments` rin github and upload your
+assignment</li>
+<li>there is also a video explaining how to create a link to each of your
+assignments in the README file of your repository</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc70b7c8">
+<h2 id="orgc70b7c8">markdown</h2>
+<div class="outline-text-2" id="text-orgc70b7c8">
+</div></section>
+<section id="slide-orgff09447">
+<h3 id="orgff09447">syntax</h3>
+<ul>
+<li>markdown allows you to create structure in a simple way</li>
+<li>examples are:</li>
+
+</ul>
+
+<pre class="example">
+this is a heading
+=================
+
+subheading
+----------
+
+* first bullet
+* second bullet
+
+[link text](actual link, e.g. http://www.etc)
+
+![Alt text for image](/path/to/img.jpg "Optional title")
+</pre>
+
+<ul>
+<li>look on the web for other syntax like footnotes etc.</li>
+<li>equations you can type in latex</li>
+
+</ul>
+
+
+</section>
+<section id="slide-org2c6a2bf">
+<h3 id="org2c6a2bf">latex</h3>
+<ul>
+<li>latex is great word processing software</li>
+<li>you should consider writing your thesis in latex</li>
+<li>but for now, we focus on writing math in latex</li>
+<li>you can guess what the following will do:</li>
+
+</ul>
+
+<pre class="example">
+$x^2$, $\beta$, $\sqrt{9}$, $\frac{1}{2}$, $\bar x$
+
+\begin{equation}
+
+a^2 + b^2 = c^2
+
+\end{equation}
+</pre>
+
+<ul>
+<li>if you need something, just google; e.g. &ldquo;google latex phi&rdquo; or
+&ldquo;google latex empty set&rdquo; etc.</li>
+
+</ul>
+
+</section>
+<section id="slide-org21e2af5">
+<h3 id="org21e2af5">markdown in jupyter notebook</h3>
+<ul>
+<li>if you have installed anaconda, you can start a jupyter notebook
+
+<ul>
+<li>by typing `jupyter notebook` in the command line/shell/terminal</li>
+<li>using the anaconda launcher</li>
+
+</ul></li>
+
+<li>let&rsquo;s look at <a href="http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html">this markdown notebook</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<p> Created by jan. </p>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
