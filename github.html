@@ -41,174 +41,125 @@
             
   <div class="section" id="github">
 <h1>Github<a class="headerlink" href="#github" title="Permalink to this headline">¶</a></h1>
-<p>We teach you to program in python and R and to explain your code using markdown. For us (and others) to see what you have done, you should publish the jupyter notebooks that you have worked on. For this course, we use github for you to publish your results.</p>
-<p>Github is an extremely powerful tool as it allows for team collaboration and version control in the cloud. Further, it allows you to publish webpages in html. In fact, the documentation for this course is on github (as you can see in the html address).</p>
-<p>However, you do not need to know all this for the purpose of this course. We will only use github for you to put your jupyter notebooks on line so that we can grade them.</p>
+<p>We teach you to program in python and R and to explain your code using markdown.
+For us (and others) to see what you have done, you should publish the jupyter
+notebooks that you have worked on. For this course, we use github for you to
+publish your results.</p>
+<p>Further, as explained below, if you have questions about this course, you also
+use github to ask these questions. Do not email us, as chances are that we
+overlook your email.</p>
+<p>Github is an extremely powerful tool as it allows for team collaboration and
+version control in the cloud. Further, it allows you to publish webpages in
+html. In fact, the documentation for this course is on github (as you can see in
+the web address).</p>
+<p>However, you do not need to know all this for the purpose of this course. We
+will only use github for you to put your jupyter notebooks on line so that we
+can grade them.</p>
 <div class="section" id="sign-up">
 <h2>Sign up<a class="headerlink" href="#sign-up" title="Permalink to this headline">¶</a></h2>
 <p>In order to use github, you need to sign up.</p>
-<p>Go to the <a class="reference internal" href="#github">GitHub</a> page and click on the green &#8220;sign up&#8221; button at the
-top. At the <a href="#id1"><span class="problematic" id="id2">join_</span></a> GitHub page, you set up a personal account. Fill in
+<p>Go to the <a class="reference external" href="https://github.com/">GitHub</a> page and click on the green &#8220;sign up&#8221; button at the
+top. At the <a class="reference external" href="https://github.com/join">join</a> GitHub page, you set up a personal account. Fill in
 the required information and click the green &#8220;Create an account&#8221;
 button.</p>
 <p>In step 2 choose the free account. Then move on to your dashboard
 (step 3).</p>
-<p>If you want, you can use your student status to get the <a class="reference external" href="https://education.github.com/pack">student developer pack</a> which gives you &#8211;among other things&#8211; some private repositories. Note that if you make assignments in a private repository, you need to share it with us; otherwise we cannot grade your assignments.</p>
-</div>
-<div class="section" id="set-up-git">
-<h2>set up Git<a class="headerlink" href="#set-up-git" title="Permalink to this headline">¶</a></h2>
-<p>Next, we need to set up Git on your computer (which you installed
-before) to work with GitHub: this page explains how to set up <a href="#id3"><span class="problematic" id="id4">Git_</span></a> for
-this purpose. Follow all the steps described on this page. That is,
-both &#8220;Setting up Git&#8221; and &#8220;Next steps: Authenticating with GitHub from
-Git&#8221;.</p>
-<p>When it comes to &#8220;Authenticating with GitHub from Git&#8221; follow the recommended route of &#8220;Connecting over HTTPS&#8221;.</p>
-</div>
-<div class="section" id="repository">
-<h2>repository<a class="headerlink" href="#repository" title="Permalink to this headline">¶</a></h2>
-<p>???adjust below; no gh-pages; everything with first-repo???</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">GitHub has changed the style of its webpages since the screenshots below were made; hence what you will see is not identical but it will be close enough for you to understand what you should be doing</p>
-</div>
-<ul class="simple">
-<li>Now create your first <a class="reference internal" href="#repository">repository</a>. Call this, for instance, &#8220;first-repo&#8221;:</li>
-</ul>
-<a class="reference internal image-reference" href="images/github_repo_1.png"><img alt="images/github_repo_1.png" class="align-center" src="images/github_repo_1.png" /></a>
-<ul class="simple">
-<li>Click on &#8220;Create repository&#8221;, and then you see (but not the arrow...):</li>
-</ul>
-<a class="reference internal image-reference" href="images/github_repo_2.png"><img alt="images/github_repo_2.png" class="align-center" src="images/github_repo_2.png" /></a>
-<ul class="simple">
-<li>Using Windows Explorer on Windows (Finder on Mac) or whatever
-program you like, create a new directory &#8220;github&#8221; in a place that
-you can navigate to using the command line. On Windows, you may want
-to create it as &#8220;C:\github&#8221;; on Mac as &#8220;~/github&#8221;.</li>
-</ul>
-<p>On Linux and Mac computers, &#8220;~&#8221; indicates your home-directory. On most terminals you can use the &#8220;tab&#8221; key to complete what you are typing. Hence typing &#8220;~/git &#8216;tab&#8217;&#8221; will complete to &#8220;~/github&#8221;; unless you have a directory &#8220;~/gitty&#8221; in which case the terminal will ask you which completion you want. Similarly for &#8220;C:\git&#8221; on Windows.</p>
-<ul class="simple">
-<li>Go to your command line (e.g. command prompt under Windows or
-another console; Terminal or iTerm2 under Mac, whatever you
-installed <a class="reference internal" href="install.html#install"><span>here</span></a>).</li>
-<li>Navigate to the new directory &#8220;github&#8221; by typing at the command line
-either <strong class="command">cd C:\github</strong> or <strong class="command">cd ~/github</strong> (whatever directory you chose
-to create)</li>
-<li>Type at the command line: <strong class="command">git clone
-https://github.com/janboone/second-repo</strong> where you change
-&#8220;/janboone/second-repo&#8221; to your own user name (instead of
-&#8220;janboone&#8221;) and the name of the repository just created (if you did
-not choose &#8220;second-repo&#8221;)</li>
-<li>The terminal will give output like</li>
-</ul>
-<div class="highlight-python"><div class="highlight"><pre>Cloning into &#39;second-repo&#39;...
-remote: Counting objects: 3, done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (3/3), done.
-Checking connectivity... done.
-</pre></div>
-</div>
-<ul class="simple">
-<li>Note that at this point there is no need to understand what you are
-typing here and why. This will become clear later</li>
-<li>Type: <strong class="command">cd second-repo</strong></li>
-<li><strong class="command">git checkout --orphan gh-pages</strong></li>
-</ul>
-<div class="highlight-python"><div class="highlight"><pre>Switched to a new branch &#39;gh-pages&#39;
-</pre></div>
-</div>
-<ul class="simple">
-<li><strong class="command">git rm -rf .</strong> &#8211;note that this is &#8220;-rf [space] .&#8221;</li>
-</ul>
-<div class="highlight-python"><div class="highlight"><pre>rm &#39;README.md&#39;
-</pre></div>
-</div>
-<ul class="simple">
-<li><strong class="command">touch .nojekyll</strong> &#8211;this is step is (only) necessary if you want to
-use sphinx; clearly, the step should be skipped if you do want to use Jekyll.</li>
-</ul>
-<ul id="buttondown">
-<li><p class="first">Download the following two files and copy them to your directory
-&#8220;github/second-repo&#8221;. That is, &#8220;C:\github\second-repo&#8221; on Windows if
-you followed the instructions above or &#8220;~/github/second-repo&#8221; on
-Mac. These are the two files from <a class="reference external" href="https://github.com/ryangray/buttondown">https://github.com/ryangray/buttondown</a>:</p>
-<blockquote>
-<div><ul class="simple">
-<li><code class="xref download docutils literal"><span class="pre">the</span> <span class="pre">markdown</span> <span class="pre">file</span></code></li>
-<li><code class="xref download docutils literal"><span class="pre">the</span> <span class="pre">css</span> <span class="pre">style</span> <span class="pre">file</span></code></li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first">Use pandoc to covert the markdown file &#8220;pandoc_example.md&#8221; into an
-html file (here &#8220;index.html&#8221;) using the style information from
-&#8220;buttondown.css&#8221;</p>
-<blockquote>
-<div><ul class="simple">
-<li><strong class="command">pandoc pandoc_example.md -s -c buttondown.css -o index.html</strong></li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first">To see what a css file does for html, we also convert to html
-without the css file:</p>
-<blockquote>
-<div><ul class="simple">
-<li><strong class="command">pandoc pandoc_example.md -o NoCss.html</strong></li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first"><strong class="command">git add .</strong></p>
-</li>
-<li><p class="first"><strong class="command">git commit -a -m &quot;First pages commit&quot;</strong></p>
-</li>
-</ul>
-<div class="highlight-python"><div class="highlight"><pre>[gh-pages (root-commit) 8d3b1d1] First pages commit
-5 files changed, 1154 insertions(+)
-create mode 100644 .nojekyll
-create mode 100644 NoCss.html
-create mode 100755 buttondown.css
-create mode 100644 index.html
-create mode 100755 pandoc_example.md
-</pre></div>
-</div>
-<ul class="simple">
-<li><strong class="command">git push origin gh-pages</strong></li>
-</ul>
-<div class="highlight-python"><div class="highlight"><pre>Counting objects: 7, done.
-Delta compression using up to 8 threads.
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (7/7), 8.45 KiB | 0 bytes/s, done.
-Total 7 (delta 2), reused 0 (delta 0)
-To https://github.com/janboone/second-repo
-[new branch]      gh-pages -&gt; gh-pages
-</pre></div>
-</div>
-<ul class="simple">
-<li>Go to the website: &#8220;<a class="reference external" href="http://janboone.github.io/second-repo/">http://janboone.github.io/second-repo/</a>&#8221; where
-you change &#8220;janboone&#8221; into your own github user name and
-&#8220;second-repo&#8221; into the name of your own second repository. Note that it may take some time before your changes are published on line.</li>
-</ul>
-</div>
-<div class="section" id="assignments">
-<h2>assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">¶</a></h2>
-<p>Make a repository &#8220;assignments&#8221;.</p>
-<p>The address of this repository in webform at ???</p>
-<p>Webform asks for:</p>
-<ul class="simple">
-<li>github account name</li>
-<li>html address of your repository &#8220;programming_assignments&#8221;</li>
-<li>DataCamp account name</li>
-<li>your ANR</li>
-<li>your uvt-email address</li>
-</ul>
-<p>The readme file in the &#8220;programming_assignments&#8221; repository contains a link to each assignment. Hence, after you have uploaded an assignment, adjust the readme file to include the html address of the jupyter notebook that you have just uploaded.</p>
-<p>???add text; explain???</p>
-<p>depending on your media player, you may want to download the videos and then watch them</p>
-<p><a class="reference external" href="https://tilburgutube.uvt.nl/asset/detail/ZgVnJfSTQWPDobL3UDGgmB7m">uploading your assignments with drag-and-drop using a browser</a></p>
-<p><a class="reference external" href="https://tilburgutube.uvt.nl/asset/detail/u2Wa4MIbMrNegaOjJR042sYG">uploading your assignments using the shell or terminal</a></p>
-<p>Detailing the steps when using the shell:</p>
+<p>If you want, you can use your student status to get the <a class="reference external" href="https://education.github.com/pack">student developer pack</a> which gives you &#8211;among other things&#8211;
+some private repositories. Note that your assignments should be in a public
+repository; otherwise we cannot grade them.</p>
 </div>
 <div class="section" id="questions">
-<h2>questions<a class="headerlink" href="#questions" title="Permalink to this headline">¶</a></h2>
-<p>As explained ?here? you also use github if you have questions about the course.</p>
+<span id="id1"></span><h2>questions<a class="headerlink" href="#questions" title="Permalink to this headline">¶</a></h2>
+<p>If you have questions/comments about this course, go to the <a class="reference external" href="https://github.com/janboone/programming-for-economists/issues">issues
+page</a>
+open a new issue (with the green &#8220;New issue&#8221; button) and type your
+question. Use a title that is informative (e.g. not &#8220;question&#8221;, but
+&#8220;question about assignment 2&#8221;). Go to the next box (&#8220;Leave a comment&#8221;)
+and type your question. Then click on &#8220;Submit new issue&#8221;. We will
+answer your question as quickly as possible.</p>
+<p>Information that we need to answer your question:</p>
+<ul class="simple">
+<li>say whether you are an ECO or EBE student</li>
+<li>mention the group number of your tutorial and/or the name of your tutorial teacher</li>
+<li>explain your question</li>
+</ul>
+<p>The advantages of the issue page include:</p>
+<ul class="simple">
+<li>if you have a question, other students may have it as well; in this
+way we answer the questions in a way that everyone can see it. Also
+before asking the question, you may want to check whether it was
+asked/answered before on the issue page</li>
+<li>we answer your question more quickly than when you email us</li>
+<li>you increase your knowledge of github!</li>
+</ul>
+<p>Only when you need to include privately sensitive information (&#8220;my cat
+has passed away&#8221;), you can send an email.</p>
+<p>In order to post issues, you need to create a github account (which
+you need anyway to follow this course).</p>
+<p>Note that if your question is related to another issue, you can react
+to the earlier issue and leave a comment in that &#8220;conversation&#8221;.</p>
+</div>
+<div class="section" id="posting-assignments-on-github">
+<h2>Posting assignments on github<a class="headerlink" href="#posting-assignments-on-github" title="Permalink to this headline">¶</a></h2>
+<p>Make a repository &#8220;assignments&#8221;.</p>
+<p>The address of this repository in webform; go to <a class="reference internal" href="index.html#important"><span>Important</span></a>
+for the address.</p>
+<p>Webform asks for:</p>
+<ul class="simple">
+<li>your Tilburg University email address (should also be used when enrolling in DataCamp)</li>
+<li>your ANR</li>
+<li>github account name</li>
+<li>html address of your github repository &#8220;assignments&#8221;</li>
+</ul>
+<p>The readme file in the &#8220;assignments&#8221; repository contains a link to each
+assignment. Hence, after you have uploaded an assignment, adjust the README file
+to include the html address of the jupyter notebook that you have just uploaded.</p>
+<p>The following video explains how to create a repository, drag your jupyter
+notebook onto github and add the link to your README file.</p>
+<p><a class="reference external" href="https://tilburgutube.uvt.nl/asset/detail/ZgVnJfSTQWPDobL3UDGgmB7m">uploading your assignments with drag-and-drop using a browser</a></p>
+<p>(depending on your media player, you may want to download the video first and then
+watch it)</p>
+<p>For the purpose of this course, it is enough if you can drag and drop files onto
+your repositories. If you want a more sophisticated interaction with github,
+look at the following section. But this is completely optional!</p>
+</div>
+<div class="section" id="optional">
+<h2>Optional<a class="headerlink" href="#optional" title="Permalink to this headline">¶</a></h2>
+<p>If you want to use the command line to upload your assignments on github, you
+need to set up Git on your computer (which you installed before) to work with
+GitHub: this page explains how to set up <a class="reference external" href="https://help.github.com/articles/set-up-git/">Git</a> for this purpose. Follow all the
+steps described on this page. That is, both &#8220;Setting up Git&#8221; and &#8220;Next steps:
+Authenticating with GitHub from Git&#8221;. When it comes to &#8220;Authenticating with
+GitHub from Git&#8221; follow the recommended route of &#8220;Connecting over HTTPS&#8221;.</p>
+<p>The following video shows how to clone a github repository to your computer,
+using the command <cite>git clone</cite>, then we add a new assignment to the directory on
+our computer and push it to github in the cloud:</p>
+<p><a class="reference external" href="https://tilburgutube.uvt.nl/asset/detail/u2Wa4MIbMrNegaOjJR042sYG">uploading your assignments using the shell or terminal</a></p>
+<p>The steps you take when using the shell are:</p>
+<ul class="simple">
+<li>only once, you need to clone the repository to your computer with <cite>git clone</cite>,
+in the video the command is <cite>git clone https://github.com/janboone/assignments</cite></li>
+<li>then you change your directory at the command line into this new directory
+&#8220;assigmnents&#8221;; the command is <cite>cd assignments</cite></li>
+<li>then you add a new jupyter notebook to your directory &#8220;assignments&#8221; or you
+change an existing notebook in this directory</li>
+<li>within this directory &#8220;assignments&#8221; type the following commands<ul>
+<li><cite>git add .</cite></li>
+<li><cite>git commit -m &#8220;type some message that explains what you have
+added/changed&#8221;</cite></li>
+<li><cite>git push</cite></li>
+</ul>
+</li>
+<li>in case you changed your github repository from another computer and you want
+to synchronise the computer you are currently working, you do the following:<ul>
+<li>if your current computer does not have the repository yet, use <cite>git clone</cite>
+as above</li>
+<li>if your current computer has the repository already but is &#8220;behind&#8221; what is
+on github, change into the directory &#8220;assignments&#8221; and type <cite>git pull</cite>. This
+brings your computer up-to-date with the github repository in the cloud.</li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 
@@ -222,10 +173,9 @@ you change &#8220;janboone&#8221; into your own github user name and
   <ul>
 <li><a class="reference internal" href="#">Github</a><ul>
 <li><a class="reference internal" href="#sign-up">Sign up</a></li>
-<li><a class="reference internal" href="#set-up-git">set up Git</a></li>
-<li><a class="reference internal" href="#repository">repository</a></li>
-<li><a class="reference internal" href="#assignments">assignments</a></li>
 <li><a class="reference internal" href="#questions">questions</a></li>
+<li><a class="reference internal" href="#posting-assignments-on-github">Posting assignments on github</a></li>
+<li><a class="reference internal" href="#optional">Optional</a></li>
 </ul>
 </li>
 </ul>
@@ -263,7 +213,7 @@ you change &#8220;janboone&#8221; into your own github user name and
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2016, Jan Boone and Misja Mikkers.
+      &copy;2016/2017, Jan Boone and Misja Mikkers.
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.5</a>

@@ -1,11 +1,23 @@
 Github
 ======
 
-We teach you to program in python and R and to explain your code using markdown. For us (and others) to see what you have done, you should publish the jupyter notebooks that you have worked on. For this course, we use github for you to publish your results.
+We teach you to program in python and R and to explain your code using markdown.
+For us (and others) to see what you have done, you should publish the jupyter
+notebooks that you have worked on. For this course, we use github for you to
+publish your results.
 
-Github is an extremely powerful tool as it allows for team collaboration and version control in the cloud. Further, it allows you to publish webpages in html. In fact, the documentation for this course is on github (as you can see in the html address).
+Further, as explained below, if you have questions about this course, you also
+use github to ask these questions. Do not email us, as chances are that we
+overlook your email.
 
-However, you do not need to know all this for the purpose of this course. We will only use github for you to put your jupyter notebooks on line so that we can grade them.
+Github is an extremely powerful tool as it allows for team collaboration and
+version control in the cloud. Further, it allows you to publish webpages in
+html. In fact, the documentation for this course is on github (as you can see in
+the web address).
+
+However, you do not need to know all this for the purpose of this course. We
+will only use github for you to put your jupyter notebooks on line so that we
+can grade them.
 
 
 
@@ -22,193 +34,122 @@ button.
 In step 2 choose the free account. Then move on to your dashboard
 (step 3).
 
-If you want, you can use your student status to get the `student developer pack <https://education.github.com/pack>`_ which gives you --among other things-- some private repositories. Note that if you make assignments in a private repository, you need to share it with us; otherwise we cannot grade your assignments.
-
-set up Git
-----------
-
-Next, we need to set up Git on your computer (which you installed
-before) to work with GitHub: this page explains how to set up Git_ for
-this purpose. Follow all the steps described on this page. That is,
-both "Setting up Git" and "Next steps: Authenticating with GitHub from
-Git". 
-
-When it comes to "Authenticating with GitHub from Git" follow the recommended route of "Connecting over HTTPS". 
-
-
-repository
-----------
-
-???adjust below; no gh-pages; everything with first-repo???
-
-
-.. note::
-
-   GitHub has changed the style of its webpages since the screenshots below were made; hence what you will see is not identical but it will be close enough for you to understand what you should be doing
-
-
-* Now create your first repository_. Call this, for instance, "first-repo":
-
-.. image:: /images/github_repo_1.png
-   :scale: 90 %
-   :align: center
-		   
-* Click on "Create repository", and then you see (but not the arrow...):
-
-		   
-.. image:: /images/github_repo_2.png
-   :scale: 90 %
-   :align: center
-
-
-* Using Windows Explorer on Windows (Finder on Mac) or whatever
-  program you like, create a new directory "github" in a place that
-  you can navigate to using the command line. On Windows, you may want
-  to create it as "C:\\github"; on Mac as "~/github".
-
-
-On Linux and Mac computers, "~" indicates your home-directory. On most terminals you can use the "tab" key to complete what you are typing. Hence typing "~/git 'tab'" will complete to "~/github"; unless you have a directory "~/gitty" in which case the terminal will ask you which completion you want. Similarly for "C:\\git" on Windows.
-
-  
-* Go to your command line (e.g. command prompt under Windows or
-  another console; Terminal or iTerm2 under Mac, whatever you
-  installed :ref:`here <install>`).
-
-* Navigate to the new directory "github" by typing at the command line
-  either :command:`cd C:\\github` or :command:`cd ~/github` (whatever directory you chose
-  to create)
-
-* Type at the command line: :command:`git clone
-  https://github.com/janboone/second-repo` where you change
-  "/janboone/second-repo" to your own user name (instead of
-  "janboone") and the name of the repository just created (if you did
-  not choose "second-repo")
-
-* The terminal will give output like
-
-::
-  
-  Cloning into 'second-repo'...
-  remote: Counting objects: 3, done.
-  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-  Unpacking objects: 100% (3/3), done.
-  Checking connectivity... done.  
-
-* Note that at this point there is no need to understand what you are
-  typing here and why. This will become clear later
-
-* Type: :command:`cd second-repo`
-
-* :command:`git checkout --orphan gh-pages`
-
-::
-
-  Switched to a new branch 'gh-pages'
-
-* :command:`git rm -rf .` --note that this is "-rf [space] ."
-
-::
-
-  rm 'README.md'
-   
-* :command:`touch .nojekyll` --this is step is (only) necessary if you want to
-  use sphinx; clearly, the step should be skipped if you do want to use Jekyll.
-
-.. _buttondown:
-  
-* Download the following two files and copy them to your directory
-  "github/second-repo". That is, "C:\\github\\second-repo" on Windows if
-  you followed the instructions above or "~/github/second-repo" on
-  Mac. These are the two files from `<https://github.com/ryangray/buttondown>`_:
-
-    * :download:`the markdown file <pandoc_example.md>`
-    * :download:`the css style file <buttondown.css>`
-
-* Use pandoc to covert the markdown file "pandoc_example.md" into an
-  html file (here "index.html") using the style information from
-  "buttondown.css"
-	   
-    * :command:`pandoc pandoc_example.md -s -c buttondown.css -o index.html`
-	  
-* To see what a css file does for html, we also convert to html
-  without the css file:
-	  
-    * :command:`pandoc pandoc_example.md -o NoCss.html`
-
-* :command:`git add .`
-
-* :command:`git commit -a -m "First pages commit"`
-
-::
-	 
-   [gh-pages (root-commit) 8d3b1d1] First pages commit
-   5 files changed, 1154 insertions(+)
-   create mode 100644 .nojekyll
-   create mode 100644 NoCss.html
-   create mode 100755 buttondown.css
-   create mode 100644 index.html
-   create mode 100755 pandoc_example.md
-  
-* :command:`git push origin gh-pages`
-
-::
-
-  Counting objects: 7, done.
-  Delta compression using up to 8 threads.
-  Compressing objects: 100% (6/6), done.
-  Writing objects: 100% (7/7), 8.45 KiB | 0 bytes/s, done.
-  Total 7 (delta 2), reused 0 (delta 0)
-  To https://github.com/janboone/second-repo
-  [new branch]      gh-pages -> gh-pages
-
-
-* Go to the website: "http://janboone.github.io/second-repo/" where
-  you change "janboone" into your own github user name and
-  "second-repo" into the name of your own second repository. Note that it may take some time before your changes are published on line.
-
-
-
-
-
-assignments
------------
-
-
-Make a repository "assignments".
-
-The address of this repository in webform at ???
-
-Webform asks for:
-
-* github account name
-* html address of your repository "programming_assignments"
-* DataCamp account name
-* your ANR
-* your uvt-email address
-
-  
-The readme file in the "programming_assignments" repository contains a link to each assignment. Hence, after you have uploaded an assignment, adjust the readme file to include the html address of the jupyter notebook that you have just uploaded.
-
-
-
-
-???add text; explain???
-
-
-depending on your media player, you may want to download the videos and then watch them
-
-`uploading your assignments with drag-and-drop using a browser <https://tilburgutube.uvt.nl/asset/detail/ZgVnJfSTQWPDobL3UDGgmB7m>`_
-
-
-
-
-`uploading your assignments using the shell or terminal  <https://tilburgutube.uvt.nl/asset/detail/u2Wa4MIbMrNegaOjJR042sYG>`_
-
-Detailing the steps when using the shell:
-
+If you want, you can use your student status to get the `student developer pack
+<https://education.github.com/pack>`_ which gives you --among other things--
+some private repositories. Note that your assignments should be in a public
+repository; otherwise we cannot grade them.
+
+.. _questions:
 
 questions
 ---------
 
-As explained ?here? you also use github if you have questions about the course.
+If you have questions/comments about this course, go to the `issues
+page <https://github.com/janboone/programming-for-economists/issues>`_
+open a new issue (with the green "New issue" button) and type your
+question. Use a title that is informative (e.g. not "question", but
+"question about assignment 2"). Go to the next box ("Leave a comment")
+and type your question. Then click on "Submit new issue". We will
+answer your question as quickly as possible.
 
+Information that we need to answer your question:
+
+* say whether you are an ECO or EBE student
+* mention the group number of your tutorial and/or the name of your tutorial teacher
+* explain your question
+
+The advantages of the issue page include:
+
+* if you have a question, other students may have it as well; in this
+  way we answer the questions in a way that everyone can see it. Also
+  before asking the question, you may want to check whether it was
+  asked/answered before on the issue page
+* we answer your question more quickly than when you email us
+* you increase your knowledge of github!
+
+Only when you need to include privately sensitive information ("my cat
+has passed away"), you can send an email.
+
+In order to post issues, you need to create a github account (which
+you need anyway to follow this course).
+
+Note that if your question is related to another issue, you can react
+to the earlier issue and leave a comment in that "conversation".
+
+
+Posting assignments on github
+-----------------------------
+
+Make a repository "assignments".
+
+The address of this repository in webform; go to :ref:`Important <important>`
+for the address.
+
+Webform asks for:
+
+* your Tilburg University email address (should also be used when enrolling in DataCamp)
+* your ANR
+* github account name
+* html address of your github repository "assignments"
+
+The readme file in the "assignments" repository contains a link to each
+assignment. Hence, after you have uploaded an assignment, adjust the README file
+to include the html address of the jupyter notebook that you have just uploaded.
+
+The following video explains how to create a repository, drag your jupyter
+notebook onto github and add the link to your README file.
+
+`uploading your assignments with drag-and-drop using a browser <https://tilburgutube.uvt.nl/asset/detail/ZgVnJfSTQWPDobL3UDGgmB7m>`_
+
+(depending on your media player, you may want to download the video first and then
+watch it)
+
+For the purpose of this course, it is enough if you can drag and drop files onto
+your repositories. If you want a more sophisticated interaction with github,
+look at the following section. But this is completely optional!
+
+Optional
+--------
+
+If you want to use the command line to upload your assignments on github, you
+need to set up Git on your computer (which you installed before) to work with
+GitHub: this page explains how to set up Git_ for this purpose. Follow all the
+steps described on this page. That is, both "Setting up Git" and "Next steps:
+Authenticating with GitHub from Git". When it comes to "Authenticating with
+GitHub from Git" follow the recommended route of "Connecting over HTTPS".
+
+The following video shows how to clone a github repository to your computer,
+using the command `git clone`, then we add a new assignment to the directory on
+our computer and push it to github in the cloud:
+
+`uploading your assignments using the shell or terminal  <https://tilburgutube.uvt.nl/asset/detail/u2Wa4MIbMrNegaOjJR042sYG>`_
+
+The steps you take when using the shell are:
+
+* only once, you need to clone the repository to your computer with `git clone`,
+  in the video the command is `git clone https://github.com/janboone/assignments`
+* then you change your directory at the command line into this new directory
+  "assigmnents"; the command is `cd assignments`
+* then you add a new jupyter notebook to your directory "assignments" or you
+  change an existing notebook in this directory
+* within this directory "assignments" type the following commands
+
+  * `git add .`
+  * `git commit -m "type some message that explains what you have
+    added/changed"`
+  * `git push`
+
+* in case you changed your github repository from another computer and you want
+  to synchronise the computer you are currently working, you do the following:
+
+  * if your current computer does not have the repository yet, use `git clone`
+    as above
+  * if your current computer has the repository already but is "behind" what is
+    on github, change into the directory "assignments" and type `git pull`. This
+    brings your computer up-to-date with the github repository in the cloud.
+
+
+.. _GitHub: https://github.com/
+.. _join: https://github.com/join
+.. _Git: https://help.github.com/articles/set-up-git/
+.. _repository: https://help.github.com/articles/create-a-repo/

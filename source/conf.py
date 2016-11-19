@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'programming for economists'
-copyright = u'2016, Jan Boone and Misja Mikkers'
+copyright = u'2016/2017, Jan Boone and Misja Mikkers'
 author = u'Jan Boone and Misja Mikkers'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -224,7 +224,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'programmingforeconomists.tex', u'programming for economists Documentation',
+    (master_doc, 'programmingforeconomists.tex', u'programming for economists',
      u'Jan Boone and Misja Mikkers', 'manual'),
 ]
 
@@ -254,7 +254,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'programmingforeconomists', u'programming for economists Documentation',
+    (master_doc, 'programmingforeconomists', u'programming for economists',
      [author], 1)
 ]
 

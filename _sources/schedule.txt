@@ -30,6 +30,8 @@ Week 1: installing software
     University email address**
   * it is important that you use your Tilburg University email address as it
     gives you access to premium content (for which you have to pay otherwise)
+  * Have you done the things under :ref:`Important? <important>`
+  * recall the **deadline** of March 15, 2017
   * Datacamp: Do it Yourself: Python Basics
 
 * Lecture:
@@ -37,7 +39,7 @@ Week 1: installing software
   * Introduction to the courses and the teachers
   * `Introduction to Markdown <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
   * Introduction to Github
-  * Q&A software install + help desk
+  * Q&A software install + github + datacamp
 
 
 Week 2: git/github/markdown
@@ -49,7 +51,10 @@ Week 2: git/github/markdown
   * the assignment :ref:`here. <week2>`
   * fill in the google form
 
-* Tutorial: Git/Github/Markdown and assignment week 2
+* Tutorial:
+
+  * assignment week 2
+  * Git/Github/Markdown problems you encountered
 
 
 Week 3: python introduction
@@ -68,14 +73,14 @@ Week 4: python (continued)
 
 * Homework:
 
-  * Datacamp: Do it Yourself: Numpy
+  * Datacamp: Do it Yourself: Numpy - Pass/Fail grade (3)
   * the assignment :ref:`here. <week4>`
-  * upload your python notebook for assignment Week 4 on github: Pass/Fail grade (3)
+  * upload your python notebook for assignment Week 4 on github: Pass/Fail grade
 
 * Tutorial:
 
   * Review assignment Week 4 - tutorial Python
-  * problems encountered by students with Python (feedback from datacamp)
+  * Python problems you encountered (at datacamp or the assignment)
 
 
 Week 5: R introduction
@@ -83,16 +88,17 @@ Week 5: R introduction
 
 * Homework:
 
-  * Datacamp: Do it yourself: Intro R - Pass/Fail grade (4)
+  * Datacamp: Do it yourself: Intro R
   * the assignment :ref:`here. <week5>`
-  * upload your python notebook for assignment Week 5 on github: Pass/Fail grade (5)
+  * upload your python notebook for assignment Week 5 on github: Pass/Fail grade (4)
 
 * Tutorial:
 
   * assignment week 5
-
+  * Python problems you encountered
 
 * Lecture: Introduction to R
+
 
 
 Week 6: R visualization
@@ -101,7 +107,7 @@ Week 6: R visualization
 * Homework:
 
 
-  * Datacamp: Intermediate R  - Pass/Fail grade (6)
+  * Datacamp: Intermediate R  - Pass/Fail grade (5)
 
 * Tutorial: review intro R
 * Lecture: visualization with R
@@ -130,40 +136,7 @@ Final Assignment
 
 
 
-
-
-
 questions
 ---------
 
-If you have questions/comments about this course, go to the `issues
-page <https://github.com/janboone/programming-for-economists/issues>`_
-open a new issue (with the green "New issue" button) and type your
-question. Use a title that is informative (e.g. not "question", but
-"question about assignment 2"). Go to the next box ("Leave a comment")
-and type your question. Then click on "Submit new issue". We will
-answer your question as quickly as possible.
-
-Information that we need to answer your question:
-
-* say whether you are an ECO or EBE student
-* mention the group number of your tutorial and/or the name of your tutorial teacher
-* explain your question
-
-The advantages of the issue page include:
-
-* if you have a question, other students may have it as well; in this
-  way we answer the questions in a way that everyone can see it. Also
-  before asking the question, you may want to check whether it was
-  asked/answered before on the issue page
-* we answer your question more quickly than when you email us
-* you increase your knowledge of github!
-
-Only when you need to include privately sensitive information ("my cat
-has passed away"), you can send an email.
-
-In order to post issues, you need to create a github account (which
-you need anyway to follow this course).
-
-Note that if your question is related to another issue, you can react
-to the earlier issue and leave a comment in that "conversation".
+If you have a question about the course, use github as described :ref:`here. <questions>`

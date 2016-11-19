@@ -11,6 +11,7 @@ Lecture
 -------
 
 week 3
+~~~~~~
 
 For the lecture we will go through :download:`this notebook
 <python_lecture.ipynb>`.

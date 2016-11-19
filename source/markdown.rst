@@ -28,7 +28,8 @@ to your assignments. Note that for this course, there is no need to create a CV.
 Lecture
 -------
 
-week 1
+Week 1
+~~~~~~
 
 For the lecture we will go through :download:`this notebook
 <markdown_notebook.ipynb>`.
@@ -41,6 +42,9 @@ The html version of the notebook can be found `here. <http://janboone.github.io/
 Assignments
 -----------
 
+Week 2
+~~~~~~
+
 * Download :download:`this notebook <Assignment_week_2.ipynb>`
 * fill in the notebook
 * upload the notebook to github
@@ -50,4 +54,15 @@ Assignments
 tutorials
 ---------
 
-Learning markdown is easy. Simply google "markdown tutorial" or "markdown cheatsheet". It is easy to practice in your jupyter notebook. Start a new notebook. ....
+Learning markdown is easy. Simply google "markdown tutorial" or "markdown
+cheatsheet". It is easy to practice in your jupyter notebook. Start a new
+notebook, change the "type" of the first cell in the notebook from `code` to
+`markdown`. There are two ways to do this:
+
+* click on the dropdown menu at the top of the page which says `code` with small
+  up and down arrows and change it to `markdown`
+* when in the cell press "ESC", "m" and "ENTER"; this changes the cell into a
+  markdown cell
+
+Then type your markdown and press "SHIFT" + "ENTER" simultaneously; presto! this
+is what it looks like.
