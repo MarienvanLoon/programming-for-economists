@@ -101,7 +101,7 @@
 - but we will not use this more advanced stuff for this course
 - look [[http://janboone.github.io/programming-for-economists/github.html][here]] to see how to create a repository `assignments` in github and upload your
   assignment
-- this video also explains how to create a link to each of your
+-  video explaining how to create a link to each of your
   assignments in the README file of your repository
 
 * markdown
@@ -133,7 +133,8 @@
 ** latex
 
 - latex is great word processing software
-- for now, we only need it to write math
+- you should consider writing your thesis in latex
+- but for now, we focus on writing math in latex
 - you can guess what the following will do:
 
 #+BEGIN_EXAMPLE
