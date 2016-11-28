@@ -36,7 +36,7 @@ Week 1: installing software
 
 * Lecture:
 
-  * Introduction to the courses and the teachers
+  * `Introduction to the course and the teachers <http://janboone.github.io/programming-for-economists/_downloads/Introduction_Lecture.html>`_
   * `Introduction to Markdown <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
   * Introduction to Github
   * Q&A software install + github + datacamp
