@@ -13,6 +13,16 @@ not you actually did the exercises and we will grade this using a Pass/Fail
 grade (see below).
 
 
+Tutorials
+---------
+
+In every week when there is a tutorial planned, there is also tutorial
+planned in a computer room (GZ 102). If you have your own
+computer/laptop, attend the standard tutorial. Only if you do not have
+access to your own computer, you may want to attend the tutorial in
+the computer room. If it turns out that everyone has their own
+computer, this computer room tutorial will be dropped.
+
 
 plan
 ----
@@ -34,7 +44,7 @@ Week 1: installing software
   * recall the **deadline** of March 15, 2017
   * Datacamp: Do it Yourself: Python Basics
 
-* Lecture:
+* Lecture: Mar 08, 2017 16:45-18:30	WZ 001
 
   * `Introduction to the course and the teachers <http://janboone.github.io/programming-for-economists/_downloads/Introduction_Lecture.html>`_
   * `Introduction to Markdown <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
@@ -51,7 +61,7 @@ Week 2: git/github/markdown
   * the assignment :ref:`here. <week2>`
   * fill in the google form
 
-* Tutorial:
+* Tutorial: week of Monday March 13, 2017
 
   * assignment week 2
   * Git/Github/Markdown problems you encountered
@@ -64,7 +74,9 @@ Week 3: python introduction
 
   * Datacamp: Do it Yourself: Functions and Packages: Pass/Fail grade (2)
 
-* Lecture: Intro python
+* Lecture: Apr 05, 2017 14:45-16:30	CZ 115
+
+  * Intro python
 
 
 
@@ -77,7 +89,7 @@ Week 4: python (continued)
   * the assignment :ref:`here. <week4>`
   * upload your python notebook for assignment Week 4 on github: Pass/Fail grade
 
-* Tutorial:
+* Tutorial: week of Monday April 10, 2017
 
   * Review assignment Week 4 - tutorial Python
   * Python problems you encountered (at datacamp or the assignment)
@@ -92,12 +104,14 @@ Week 5: R introduction
   * the assignment :ref:`here. <week5>`
   * upload your python notebook for assignment Week 5 on github: Pass/Fail grade (4)
 
-* Tutorial:
+* Tutorial: week of Monday April 17
 
   * assignment week 5
   * Python problems you encountered
 
-* Lecture: Introduction to R
+* Lecture: Apr 19, 2017 14:45-16:30	CZ 115
+
+  * Introduction to R
 
 
 
@@ -109,8 +123,14 @@ Week 6: R visualization
 
   * Datacamp: Intermediate R  - Pass/Fail grade (5)
 
-* Tutorial: review intro R
-* Lecture: visualization with R
+* Tutorial: week of Monday May 1, 2017
+
+  * review intro R
+
+
+* Lecture: May 03, 2017 14:45-16:30	CZ 115
+
+  * visualization with R
 
 Week 7: R (continued)
 ~~~~~~~~~~~~~~~~~~~~~
@@ -119,14 +139,20 @@ Week 7: R (continued)
 
   * Datacamp:
 
-* Lecture:
+* Lecture: May 10, 2017 14:45-16:30	CZ 115
 
 
 
 Week 8: R (continued)
 ~~~~~~~~~~~~~~~~~~~~~
 
-* Tutorial: review intermediate R.
+* Tutorial: week of Monday May 15, 2017
+
+  * review intermediate R.
+
+
+
+
 
 
 Final Assignment
