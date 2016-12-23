@@ -24,6 +24,7 @@ In 2016-2017 this course is taught by:
 * Santiago Bohorquez Correa
 * Jan Boone
 * Clemens Fiedler
+* Mark Klik
 * Misja Mikkers
 * Louis Raes
 * Minke Remmerswaal
