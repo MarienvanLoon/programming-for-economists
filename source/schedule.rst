@@ -42,7 +42,11 @@ Week 1: installing software
     gives you access to premium content (for which you have to pay otherwise)
   * Have you done the things under :ref:`Important? <important>`
   * recall the **deadline** of March 15, 2017
-  * Datacamp: Do it Yourself: Python Basics
+  * Datacamp: Do it Yourself: Python Basics from `Intro to Python for Data Science. <https://www.datacamp.com/courses/intro-to-python-for-data-science>`_
+
+"Do It Yourself" means here that you do these things yourself before the
+lecture/tutorial in this week. Note that in the following weeks a number of
+these "Do It Yourself"-items will be graded with pass/fail; see below.
 
 * Lecture: Mar 08, 2017 16:45-18:30	WZ 001
 
@@ -57,7 +61,7 @@ Week 2: git/github/markdown
 
 * Homework:
 
-  * Datacamp: Do it Yourself: Python Lists: Pass/Fail grade (1)
+  * Datacamp: Do it Yourself: Python Lists
   * the assignment :ref:`here. <week2>`
   * fill in the google form
 
@@ -72,7 +76,7 @@ Week 3: python introduction
 
 * Homework:
 
-  * Datacamp: Do it Yourself: Functions and Packages: Pass/Fail grade (2)
+  * Datacamp: Do it Yourself: Functions and Packages: Pass/Fail grade (1)
 
 * Lecture: Apr 05, 2017 14:45-16:30	CZ 115
 
@@ -85,7 +89,7 @@ Week 4: python (continued)
 
 * Homework:
 
-  * Datacamp: Do it Yourself: Numpy - Pass/Fail grade (3)
+  * Datacamp: Do it Yourself: Numpy - Pass/Fail grade (2)
   * the assignment :ref:`here. <week4>`
   * upload your python notebook for assignment Week 4 on github: Pass/Fail grade
 
@@ -102,7 +106,7 @@ Week 5: R introduction
 
   * Datacamp: Do it yourself: Intro R
   * the assignment :ref:`here. <week5>`
-  * upload your python notebook for assignment Week 5 on github: Pass/Fail grade (4)
+  * upload your python notebook for assignment Week 5 on github: Pass/Fail grade (3)
 
 * Tutorial: week of Monday April 17
 
@@ -121,7 +125,7 @@ Week 6: R visualization
 * Homework:
 
 
-  * Datacamp: Intermediate R  - Pass/Fail grade (5)
+  * Datacamp: Intermediate R  - Pass/Fail grade (4)
 
 * Tutorial: week of Monday May 1, 2017
 

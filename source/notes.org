@@ -2,11 +2,12 @@
 
 ** make a google form:
 *** name
-*** ANR
+*** Student Number
+*** UvT email address
 *** ECO/EBE
 *** identifier tutorial group
 *** github link to README file with links
-*** identifier to link with Datacamp data on who did what
+
 
 
 ** students work in groups for assignments? 2/3 students?

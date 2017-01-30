@@ -38,7 +38,7 @@ Datacamp
 We are very happy that we partner with `datacamp <https://www.datacamp.com/>`_
 for this course to teach you both python and R.
 
-`Datacamp <https://www.datacamp.com/about>`_ offers great on line courses for
+`Datacamp <https://www.datacamp.com/about>`_ offers great on-line courses for
 you to learn R and python and it allows us to track your progress...
 
 .. _important:
@@ -50,7 +50,10 @@ Things to do if you want to follow this course:
 
 * enroll in `datacamp <https://www.datacamp.com/>`_ **with your Tilburg University email address**
 * sign up at `<github.com>`_
-* after siging up at github, fill in the webform at ???
+* create a repository called "assignments" as explained :ref:`here; <posting>`
+  and save the address of this repository
+* after you have done this, go to the webform:
+* and fill in `this webform. <https://goo.gl/forms/n8h9sAuP5gAN6san1>`_
 * note that you need to fill in the webform **before March 15, 2017**
 
 

@@ -6,6 +6,9 @@ Learning Python
 Datacamp
 --------
 
+Most of python you learn yourself using datacamp. Follow the on-line videos and
+do the on-line exercises. If you have questions about these, ask us during the
+lecture or tutorial.
 
 Lecture
 -------

@@ -77,32 +77,29 @@ Note that if your question is related to another issue, you can react
 to the earlier issue and leave a comment in that "conversation".
 
 
+.. _posting:
+
 Posting assignments on github
 -----------------------------
 
 Make a repository "assignments".
 
-The address of this repository in webform; go to :ref:`Important <important>`
-for the address.
-
-Webform asks for:
-
-* your Tilburg University email address (should also be used when enrolling in DataCamp)
-* your ANR
-* github account name
-* html address of your github repository "assignments"
-
-The readme file in the "assignments" repository contains a link to each
-assignment. Hence, after you have uploaded an assignment, adjust the README file
-to include the html address of the jupyter notebook that you have just uploaded.
-
 The following video explains how to create a repository, drag your jupyter
-notebook onto github and add the link to your README file.
+notebook onto github and add the link to your README file. To fill in the
+webform, you only need to create a repository "assignments" as explained at the
+start of the video.
 
 `uploading your assignments with drag-and-drop using a browser <https://tilburgutube.uvt.nl/asset/detail/ZgVnJfSTQWPDobL3UDGgmB7m>`_
 
 (depending on your media player, you may want to download the video first and then
 watch it)
+
+The web address of this repository "assignments" needs to be provided in the webform; go to :ref:`Important <important>`
+for the address of the webform.
+
+In the README file in the "assignments" repository you provide a link to each
+assignment. Hence, after you have uploaded an assignment, adjust the README file
+to include the web address of the jupyter notebook that you have just uploaded.
 
 For the purpose of this course, it is enough if you can drag and drop files onto
 your repositories. If you want a more sophisticated interaction with github,
