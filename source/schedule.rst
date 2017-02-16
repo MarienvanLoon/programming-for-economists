@@ -80,7 +80,8 @@ Week 3: python introduction
 
 * Lecture: Apr 05, 2017 14:45-16:30	CZ 115
 
-  * Intro python
+  * For the lecture we will go through :download:`this notebook <python_lecture.ipynb>`. The html version of the notebook can be found `here. <http://janboone.github.io/programming-for-economists/_downloads/python_lecture.html>`_
+
 
 
 
