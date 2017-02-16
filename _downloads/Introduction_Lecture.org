@@ -43,6 +43,7 @@
         + Santiago Bohorquez Correa
         + Jan Boone
         + Clemens Fiedler
+        + Mark Klik
         + Misja Mikkers
         + Louis Raes
         + Minke Remmerswaal
@@ -70,7 +71,7 @@
         + your progress on Datacamp
         + assignments you do on your own or together with 1 other student (group
           of two, at max.)
-        + 8 pass/fail grades
+        + 5 pass/fail grades
         + grade of your final assignment
 
 
