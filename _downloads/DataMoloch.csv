@@ -1,0 +1,36 @@
+Zipcode;Hospital;Location;Patients
+A;Moloch;A;1222330
+B;Moloch;A;172018
+C;Moloch;A;63002
+D;Moloch;A;60333
+E;Moloch;A;3032
+F;Moloch;A;4584
+G;Moloch;A;0
+A;Giant Health;C;101000
+B;Giant Health;C;23201
+C;Giant Health;C;506301
+D;Giant Health;C;232
+E;Giant Health;C;2187
+F;Giant Health;C;3423
+G;Giant Health;C;0
+A;Rose Garden;E;23012
+B;Rose Garden;E;4002
+C;Rose Garden;E;4502
+D;Rose Garden;E;402
+E;Rose Garden;E;24232
+F;Rose Garden;E;2088
+G;Rose Garden;E;0
+A;Orbit;F;1492
+B;Orbit;F;13
+C;Orbit;F;4333
+D;Orbit;F;4502
+E;Orbit;F;44
+F;Orbit;F;29234
+G;Orbit;F;0
+A;Boone;A;90000
+B;Boone;A;343
+C;Boone;A;566
+D;Boone;A;234
+E;Boone;A;3
+F;Boone;A;34
+G;Boone;A;130
