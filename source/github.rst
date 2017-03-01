@@ -124,7 +124,10 @@ our computer and push it to github in the cloud:
 The steps you take when using the shell are:
 
 * only once, you need to clone the repository to your computer with `git clone`,
-  in the video the command is `git clone https://github.com/janboone/assignments`
+  in the video the command is `git clone
+  https://github.com/janboone/assignments`; of course, change the address
+  'https://github.com/janboone/assignments' to the address of your own
+  assignment repository on github
 * then you change your directory at the command line into this new directory
   "assigmnents"; the command is `cd assignments`
 * then you add a new jupyter notebook to your directory "assignments" or you
