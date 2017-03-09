@@ -52,10 +52,8 @@
 .highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .k { color: #008000; font-weight: bold } /* Keyword */
 .highlight .o { color: #666666 } /* Operator */
-.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
 .highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #BC7A00 } /* Comment.Preproc */
-.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
 .highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
 .highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
 .highlight .gd { color: #A00000 } /* Generic.Deleted */
@@ -130,14 +128,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  }
-  div.output_wrapper {
+  } 
+  div.output_wrapper { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
-  div.output {
+  div.output { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
 }
 </style>
@@ -187,10 +185,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="o">%%</span><span class="k">html</span>
+<div class=" highlight hl-ipython2"><pre><span class="o">%%</span><span class="k">html</span>
 
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Relying on Excel for important calculations is like driving drunk: no matter how carefully you do it, a wreck is likely. &lt;a href=&quot;https://twitter.com/hashtag/reproducibility?src=hash&quot;&gt;#reproducibility&lt;/a&gt;&lt;/p&gt;&amp;mdash; Philip Stark (@philipbstark) &lt;a href=&quot;https://twitter.com/philipbstark/status/498683914592862208&quot;&gt;August 11, 2014&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
@@ -252,10 +250,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 </pre></div>
 
 </div>
@@ -275,10 +273,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">min_offer</span> <span class="o">=</span> <span class="mf">0.0</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">min_offer</span> <span class="o">=</span> <span class="mf">0.0</span>
 <span class="n">max_offer</span> <span class="o">=</span> <span class="mf">10.0</span>
 <span class="n">offers</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">min_offer</span><span class="p">,</span><span class="n">max_offer</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
@@ -300,10 +298,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">offers</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">offers</span>
 </pre></div>
 
 </div>
@@ -314,7 +312,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -344,10 +342,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="n">your_outside_option</span><span class="p">):</span>
+<div class=" highlight hl-ipython2"><pre><span class="k">def</span> <span class="nf">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="n">your_outside_option</span><span class="p">):</span>
     <span class="n">accept</span> <span class="o">=</span> <span class="p">(</span><span class="n">offer</span> <span class="o">&gt;=</span> <span class="n">your_outside_option</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">accept</span>
 </pre></div>
@@ -369,10 +367,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">accept_offer</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">accept_offer</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -383,7 +381,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[6]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -402,7 +400,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>To figure out which offer player 1 should make to player 2, we plot the profits of player 1 as a function of the offers made and the outside option of player 2. In order to plot these profits, we import <a href="https://plot.ly/">plotly</a>.</p>
-<p>You may have to install plotly on your system. Here you can find the <a href="https://plot.ly/python/getting-started/">instructions to install plotly.</a></p>
+<p>You may have to install plotly on your system. Here you can find the <a href="https://plot.ly/python/getting-started/">instructions to install plotly.</a> Note that if you use the anaconda distribution, type "conda install plotly" instead of "pip install".</p>
 <p>Once it is installed, we can import plotly.</p>
 
 </div>
@@ -410,13 +408,13 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">plotly.offline</span> <span class="k">import</span> <span class="n">download_plotlyjs</span><span class="p">,</span> <span class="n">init_notebook_mode</span><span class="p">,</span> <span class="n">plot</span><span class="p">,</span> <span class="n">iplot</span>
-<span class="kn">from</span> <span class="nn">plotly.graph_objs</span> <span class="k">import</span> <span class="n">Bar</span><span class="p">,</span> <span class="n">Scatter</span><span class="p">,</span> <span class="n">Figure</span><span class="p">,</span> <span class="n">Layout</span>
-<span class="n">init_notebook_mode</span><span class="p">(</span><span class="n">connected</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># run at the start of every ipython notebook to use plotly.offline</span>
-                     <span class="c1"># this injects the plotly.js source files into the notebook</span>
+<div class=" highlight hl-ipython2"><pre><span class="kn">from</span> <span class="nn">plotly.offline</span> <span class="kn">import</span> <span class="n">download_plotlyjs</span><span class="p">,</span> <span class="n">init_notebook_mode</span><span class="p">,</span> <span class="n">plot</span><span class="p">,</span> <span class="n">iplot</span>
+<span class="kn">from</span> <span class="nn">plotly.graph_objs</span> <span class="kn">import</span> <span class="n">Bar</span><span class="p">,</span> <span class="n">Scatter</span><span class="p">,</span> <span class="n">Figure</span><span class="p">,</span> <span class="n">Layout</span>
+<span class="n">init_notebook_mode</span><span class="p">(</span><span class="n">connected</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> <span class="c"># run at the start of every ipython notebook to use plotly.offline</span>
+                     <span class="c"># this injects the plotly.js source files into the notebook</span>
 </pre></div>
 
 </div>
@@ -451,10 +449,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">iplot</span><span class="p">([{</span><span class="s2">&quot;x&quot;</span><span class="p">:</span> <span class="n">offers</span><span class="p">,</span> <span class="s2">&quot;y&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="n">max_offer</span><span class="o">-</span><span class="n">offer</span><span class="p">)</span><span class="o">*</span><span class="n">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span> <span class="k">for</span> <span class="n">offer</span> <span class="ow">in</span> <span class="n">offers</span><span class="p">]}])</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">iplot</span><span class="p">([{</span><span class="s">&quot;x&quot;</span><span class="p">:</span> <span class="n">offers</span><span class="p">,</span> <span class="s">&quot;y&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="n">max_offer</span><span class="o">-</span><span class="n">offer</span><span class="p">)</span><span class="o">*</span><span class="n">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span> <span class="k">for</span> <span class="n">offer</span> <span class="ow">in</span> <span class="n">offers</span><span class="p">]}])</span>
 </pre></div>
 
 </div>
@@ -468,7 +466,7 @@ div#notebook {
 <div class="output_area"><div class="prompt"></div>
 
 <div class="output_html rendered_html output_subarea ">
-<div id="30f255e5-1c93-4786-be9c-50ae21833754" style="height: 525; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("30f255e5-1c93-4786-be9c-50ae21833754", [{"y": [0.0, 0.0, 0.0, 0.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0, 0.0], "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
+<div id="ff064a14-f57a-4402-bc31-d55d5e1d941e" style="height: 525; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("ff064a14-f57a-4402-bc31-d55d5e1d941e", [{"y": [0.0, 0.0, 0.0, 0.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0, 0.0], "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
 </div>
 
 </div>
@@ -491,30 +489,30 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">iplot</span><span class="p">({</span>
-    <span class="s1">&#39;data&#39;</span><span class="p">:</span> <span class="p">[</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">iplot</span><span class="p">({</span>
+    <span class="s">&#39;data&#39;</span><span class="p">:</span> <span class="p">[</span>
         <span class="n">Scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">offers</span><span class="p">,</span>
                 <span class="n">y</span><span class="o">=</span><span class="p">[(</span><span class="n">max_offer</span><span class="o">-</span><span class="n">offer</span><span class="p">)</span><span class="o">*</span><span class="n">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="n">outside</span><span class="p">)</span> <span class="k">for</span> <span class="n">offer</span> <span class="ow">in</span> <span class="n">offers</span><span class="p">],</span>
-                <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;other outside offer &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">outside</span><span class="p">))</span>
+                <span class="n">name</span> <span class="o">=</span> <span class="s">&quot;other outside offer &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">outside</span><span class="p">))</span>
     <span class="k">for</span> <span class="n">outside</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">]],</span>
-        <span class="s1">&#39;layout&#39;</span><span class="p">:</span> <span class="n">Layout</span><span class="p">(</span>
-    <span class="n">title</span><span class="o">=</span> <span class="s1">&#39;profit of offer maker&#39;</span><span class="p">,</span>
-    <span class="n">hovermode</span><span class="o">=</span> <span class="s1">&#39;closest&#39;</span><span class="p">,</span>
+        <span class="s">&#39;layout&#39;</span><span class="p">:</span> <span class="n">Layout</span><span class="p">(</span>
+    <span class="n">title</span><span class="o">=</span> <span class="s">&#39;profit of offer maker&#39;</span><span class="p">,</span>
+    <span class="n">hovermode</span><span class="o">=</span> <span class="s">&#39;closest&#39;</span><span class="p">,</span>
     <span class="n">xaxis</span><span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-        <span class="n">title</span><span class="o">=</span> <span class="s1">&#39;offer&#39;</span><span class="p">,</span>
+        <span class="n">title</span><span class="o">=</span> <span class="s">&#39;offer&#39;</span><span class="p">,</span>
         <span class="n">ticklen</span><span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
-        <span class="n">zeroline</span><span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="n">zeroline</span><span class="o">=</span> <span class="bp">False</span><span class="p">,</span>
         <span class="n">gridwidth</span><span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
     <span class="p">),</span>
     <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
-        <span class="n">title</span><span class="o">=</span> <span class="s1">&#39;profit&#39;</span><span class="p">,</span>
+        <span class="n">title</span><span class="o">=</span> <span class="s">&#39;profit&#39;</span><span class="p">,</span>
         <span class="n">ticklen</span><span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
         <span class="n">gridwidth</span><span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
     <span class="p">))</span>
-<span class="p">},</span> <span class="n">show_link</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="p">},</span> <span class="n">show_link</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -528,7 +526,7 @@ div#notebook {
 <div class="output_area"><div class="prompt"></div>
 
 <div class="output_html rendered_html output_subarea ">
-<div id="db9c94b3-241c-4a40-9ce4-55ca29cd9990" style="height: 525; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("db9c94b3-241c-4a40-9ce4-55ca29cd9990", [{"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 3.0, 2.0, 1.0, 0.0], "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0], "type": "scatter", "name": "other outside offer 6"}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 2.0, 1.0, 0.0], "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0], "type": "scatter", "name": "other outside offer 7"}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 1.0, 0.0], "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0], "type": "scatter", "name": "other outside offer 8"}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0], "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0], "type": "scatter", "name": "other outside offer 9"}], {"title": "profit of offer maker", "yaxis": {"title": "profit", "gridwidth": 2, "ticklen": 5}, "xaxis": {"title": "offer", "gridwidth": 2, "zeroline": false, "ticklen": 5}, "hovermode": "closest"}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
+<div id="268e03ab-36d4-44ce-9d23-dc7510df274a" style="height: 525; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("268e03ab-36d4-44ce-9d23-dc7510df274a", [{"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 3.0, 2.0, 1.0, 0.0], "type": "scatter", "name": "other outside offer 6", "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 2.0, 1.0, 0.0], "type": "scatter", "name": "other outside offer 7", "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 1.0, 0.0], "type": "scatter", "name": "other outside offer 8", "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}, {"y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0], "type": "scatter", "name": "other outside offer 9", "x": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]}], {"yaxis": {"gridwidth": 2, "title": "profit", "ticklen": 5}, "title": "profit of offer maker", "xaxis": {"zeroline": false, "title": "offer", "gridwidth": 2, "ticklen": 5}, "hovermode": "closest"}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
 </div>
 
 </div>
@@ -551,10 +549,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">make_offer</span><span class="p">(</span><span class="n">your_outside_option</span><span class="p">,</span><span class="n">other_outside_option</span><span class="p">):</span>
+<div class=" highlight hl-ipython2"><pre><span class="k">def</span> <span class="nf">make_offer</span><span class="p">(</span><span class="n">your_outside_option</span><span class="p">,</span><span class="n">other_outside_option</span><span class="p">):</span>
     <span class="n">profits</span> <span class="o">=</span> <span class="p">[(</span><span class="n">max_offer</span><span class="o">-</span><span class="n">offer</span><span class="p">)</span><span class="o">*</span><span class="n">accept_offer</span><span class="p">(</span><span class="n">offer</span><span class="p">,</span><span class="n">other_outside_option</span><span class="p">)</span> <span class="k">for</span> <span class="n">offer</span> <span class="ow">in</span> <span class="n">offers</span><span class="p">]</span>
     <span class="n">max_profit</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">profits</span><span class="p">)</span>
     <span class="n">max_index</span> <span class="o">=</span> <span class="n">profits</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">max_profit</span><span class="p">)</span>
@@ -563,7 +561,7 @@ div#notebook {
         <span class="n">your_profit</span> <span class="o">=</span> <span class="n">max_offer</span><span class="o">-</span><span class="n">offers</span><span class="p">[</span><span class="n">max_index</span><span class="p">]</span>
         <span class="n">other_profit</span> <span class="o">=</span> <span class="n">offers</span><span class="p">[</span><span class="n">max_index</span><span class="p">]</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="n">your_offer</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="c1"># no offer is made</span>
+        <span class="n">your_offer</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="c"># no offer is made</span>
         <span class="n">your_profit</span> <span class="o">=</span> <span class="n">your_outside_option</span>
         <span class="n">other_profit</span> <span class="o">=</span> <span class="n">other_outside_option</span>
     <span class="k">return</span> <span class="n">your_offer</span><span class="p">,</span> <span class="n">your_profit</span><span class="p">,</span> <span class="n">other_profit</span>
@@ -586,10 +584,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">make_offer</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">make_offer</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -600,7 +598,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[25]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -639,13 +637,13 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">delta</span> <span class="o">=</span> <span class="mf">0.9</span>
-<span class="n">outside_options</span> <span class="o">=</span> <span class="p">{}</span> <span class="c1"># dictionary of outside options as a function (key) of period</span>
-<span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># first element in the list is 1&#39;s outside option, </span>
-                          <span class="c1"># second element 2&#39;s outside option in period 2</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">delta</span> <span class="o">=</span> <span class="mf">0.9</span>
+<span class="n">outside_options</span> <span class="o">=</span> <span class="p">{}</span> <span class="c"># dictionary of outside options as a function (key) of period</span>
+<span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> <span class="c"># first element in the list is 1&#39;s outside option, </span>
+                          <span class="c"># second element 2&#39;s outside option in period 2</span>
 </pre></div>
 
 </div>
@@ -665,10 +663,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">offer2</span> <span class="o">=</span> <span class="n">make_offer</span><span class="p">(</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">offer2</span> <span class="o">=</span> <span class="n">make_offer</span><span class="p">(</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
 <span class="n">outside_options</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">delta</span><span class="o">*</span><span class="n">offer2</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">delta</span><span class="o">*</span><span class="n">offer2</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
 </pre></div>
 
@@ -677,23 +675,12 @@ div#notebook {
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Knowing what happens in the last period (i.e. period 2), we can move back to period 1. In game theory this is called "backward induction" --don't worry if you never heard of this before.</p>
-<p>In period 1 --taking into account what will happen in period 2 if this offer is rejected-- player 1 makes the following offer and payoffs for players 1 and 2 are as follows:</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">make_offer</span><span class="p">(</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">make_offer</span><span class="p">(</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span><span class="n">outside_options</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -704,7 +691,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[15]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[28]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -722,7 +709,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre>
+<div class=" highlight hl-ipython2"><pre> 
 </pre></div>
 
 </div>
