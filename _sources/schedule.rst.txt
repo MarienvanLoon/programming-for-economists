@@ -92,7 +92,7 @@ Week 4: python (continued)
 
   * Datacamp: Do it Yourself: Numpy - Pass/Fail grade (2)
   * the assignment :ref:`here. <week4>`
-  * upload your python notebook for assignment Week 4 on github: Pass/Fail grade
+  * upload your python notebook for assignment Week 4 on github
 
 * Tutorial: week of Monday April 10, 2017
 
