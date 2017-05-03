@@ -92,7 +92,7 @@ Week 4: python (continued)
 
   * Datacamp: Do it Yourself: Numpy - Pass/Fail grade (2)
   * the assignment :ref:`here. <week4>`
-  * upload your python notebook for assignment Week 4 on github: Pass/Fail grade
+  * upload your python notebook for assignment Week 4 on github
 
 * Tutorial: week of Monday April 10, 2017
 
@@ -105,7 +105,7 @@ Week 5: R introduction
 
 * Homework:
 
-  * Datacamp: Do it yourself: Intro R
+  * Datacamp: Do it yourself: Introduction to R (completely)
   * the assignment :ref:`here. <week5>`
   * upload your python notebook for assignment Week 5 on github: Pass/Fail grade (3)
 
@@ -116,48 +116,66 @@ Week 5: R introduction
 
 * Lecture: Apr 19, 2017 14:45-16:30	CZ 115
 
-  * Introduction to R
+  * For the lecture we will go through :download:`this notebook. <football.ipynb>`
+  * You need also to download :download:`the excelfile <football.xlsx>`
+  * Please save the files in the same folder.
 
 
-
-Week 6: R visualization
-~~~~~~~~~~~~~~~~~~~~~~~
+Week 6: Data Manipulation
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
+  * Datacamp: Data Manipulation in R with dplyr: Chapters 1,2 and 3
+  * the assignment :ref:`here. <week6>`
+  * upload your python notebook for assignment Week 6 on github: Pass/Fail grade (4)
 
-  * Datacamp: Intermediate R  - Pass/Fail grade (4)
 
 * Tutorial: week of Monday May 1, 2017
 
-  * review intro R
-
+  * In the tutorial we will go through :download:`this notebook. <tutorial2.ipynb>`
+  * You need also to download :download:`the csv file <NaturalPark.csv>`
+  * Please save the files in the same folder.
 
 * Lecture: May 03, 2017 14:45-16:30	CZ 115
 
-  * visualization with R
+  * Introduction to data visualization with ggplot2
+  * For the lecture we will go through :download:`this notebook. <ggplot2.ipynb>`
+
 
 Week 7: R (continued)
 ~~~~~~~~~~~~~~~~~~~~~
 
 * Homework:
 
-  * Datacamp:
+  * Datacamp: Data Manipulation in R with dplyr: Chapters 4 and 5
 
 * Lecture: May 10, 2017 14:45-16:30	CZ 115
+
+  * An application of data manipulation with dplyr
+  * For the lecture we will go through :download:`this notebook. <Example package dplyr.ipynb>`
+  * You need also to download :download:`the csv file <DataMoloch.csv>`
+  * Please save the files in the same folder.
+
 
 
 
 Week 8: R (continued)
 ~~~~~~~~~~~~~~~~~~~~~
 
+* Homework:
+
+  * the assignment :ref:`here. <week8>`
+  * upload your python notebook for assignment Week 8 on github: Pass/Fail grade (5)
+
+
 * Tutorial: week of Monday May 15, 2017
 
-  * review intermediate R.
-
-
-
-
+  * In the tutorial we will go through :download:`this notebook. <growth.ipynb>`
+  * You need also to download :download:`the csv file <cc.csv>`
+  * and we will also go through :download:`this notebook. <OECDdata.ipynb>`
+  * You need also to download :download:`the excel file <oecd16.xls>`
+  * In each case, please save the files in the same folder.
 
 
 Final Assignment
