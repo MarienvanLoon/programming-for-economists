@@ -21,6 +21,8 @@ student numbers in the first cell of the assignment notebook.
 Grading:
 ~~~~~~~~
 
+If you want to get a grade for this course, make sure you register in the google form before the deadline!
+
 In the schedule there are 5 pass/fail items. For each "pass", you earn 0.5 points;
 for a "fail" you earn 0 points. Hence, if you have 5 times a "pass", you earn
 2.5 points for your final grade.

@@ -13,20 +13,18 @@ This is the webpage for the BSc course Programming for Economists at Tilburg
 University. This course is taught in the first year for ECO and EBE.
 
 
-**Note that this webpage is under construction; lectures are not
-complete yet and some links to screencasts do not work**
+**Note that this webpage is under construction for 2017/8**
 
 Team
 ----
 
-In 2016-2017 this course is taught by:
+In 2017-2018 this course is taught by:
 
 * Santiago Bohorquez Correa
 * Jan Boone
 * Clemens Fiedler
 * Mark Klik
 * Misja Mikkers
-* Louis Raes
 * Minke Remmerswaal
 
 Make sure that you read the Rules of the Game if you want to attend
@@ -55,7 +53,8 @@ Things to do if you want to follow this course:
 * after you have done this, go to the webform:
 * and fill in `this webform. <https://goo.gl/forms/n8h9sAuP5gAN6san1>`_
 * note that you need to fill in the webform **before March 15, 2017**
-
+* if you do not fill in the webform before the deadline, you *cannot* get a grade for this course
+  
 
 Questions
 ---------
