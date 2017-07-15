@@ -97,9 +97,11 @@ watch it)
 The web address of this repository "assignments" needs to be provided in the webform; go to :ref:`Important <important>`
 for the address of the webform.
 
+Make sure to use the correct link both in the webform and in the README file below. The links that you should post start with "github.com/" and are NOT of the form "http://localhost". Make sure you test your links after uploading.
+
 In the README file in the "assignments" repository you provide a link to each
 assignment. Hence, after you have uploaded an assignment, adjust the README file
-to include the web address of the jupyter notebook that you have just uploaded.
+to include the web address of the jupyter notebook that you have just uploaded. Again such a link is of the form "github.com/".
 
 For the purpose of this course, it is enough if you can drag and drop files onto
 your repositories. If you want a more sophisticated interaction with github,

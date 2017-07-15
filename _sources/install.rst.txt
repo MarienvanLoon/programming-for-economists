@@ -33,6 +33,7 @@ Required installs for this course:
   install -c r r-essentials' and press enter. More details can be
   found at `this
   page. <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
+  Note that you do not need to install R-studio for this (but you can; see below).
   
 
 What if the installation does not work?
@@ -47,7 +48,7 @@ Most of the time, the instructions above work and you are done. What can you do 
   disadvantages. First, you cannot install packages yourself (but this
   is not necessary for the course). Second, you need an additional step to
   upload your notebooks and to get your notebooks on github.
-* if you can work with python in the jupyter notebook but not with R, you can use R-studio. Instructions on how to install R-studio can be :download:`downloaded here. <install_R_studio.html>`
+* if you can work with python in the jupyter notebook but not with R, you can use R-studio. Instructions on how to install R-studio can be :download:`downloaded here. <install_R_studio.html>` 
   
 Make sure that you have a working python and R environment before we
 start using python in class. If you only figure out that R or python
