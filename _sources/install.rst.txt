@@ -101,7 +101,7 @@ In each of these cases, it is useful to know some basic commands. We give some h
 * if there is a directory called 'dir' that you would like to move to, type 'cd dir' where 'cd' stands for "change directory"
 * if you want to move back to the directory above, type 'cd ..'
 * if you want to make a new directory 'dir' type 'mkdir dir' where 'mkdir' stands for "make directory"
-
+* in Windows: if you are on the 'C'-drive but would like to move to 'D', type 'D:'
 
 .. _music: https://www.youtube.com/watch?v=6SFNW5F8K9Y
 .. _Markdown: https://en.wikipedia.org/wiki/Markdown
