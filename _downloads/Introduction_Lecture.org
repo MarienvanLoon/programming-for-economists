@@ -34,26 +34,28 @@
     - to solve problems together with readable documentation on how you solved
       it ("reproducible research")
     - on this last point, office products like excel score rather badly
-
+    - you will use R and python in courses in the years to come
 
 ** Who teaches this course?
 
-    - In 2016-2017 this course is taught by:
+    - In 2017-2018 this course is taught by:
 
         + Santiago Bohorquez Correa
         + Jan Boone
         + Clemens Fiedler
         + Mark Klik
         + Misja Mikkers
-        + Louis Raes
         + Minke Remmerswaal
 
 
 ** How do we teach this course?
 
     - on line lectures on Datacamp
-    - lectures
     - tutorials: with plenty of time to ask questions
+      - there are a number of "regular" tutorials and one in the computer lab
+      - if you do not have a laptop, attend the tutorial in the computer lab
+      - if you do have a laptop, you can attend the one in the computer lab, or your regular one
+      - we may drop some tutorial groups, so check Blackboard!
     - schedule can be found [[http://janboone.github.io/programming-for-economists/schedule.html][here]]
     - we track your progress on datacamp
     - assignments
@@ -66,13 +68,7 @@
 ** Your grade
 
     - see [[http://janboone.github.io/programming-for-economists/rules.html][Rules of the Game]] to see how your grade is determined
-    - it depends on:
-
-        + your progress on Datacamp
-        + assignments you do on your own or together with 1 other student (group
-          of two, at max.)
-        + 5 pass/fail grades
-        + grade of your final assignment
+    - it depends on the items specified [[http://janboone.github.io/programming-for-economists/rules.html#grading][here]]
 
 
 ** Something went wrong?
@@ -89,10 +85,11 @@
     - note the *deadline* for filling in the webform!
     - if you miss the deadline, you will have to pay for premium content on
       Datacamp yourself
+    - if you either do not sign up in time or if you fail all pass/fail items, you cannot take the final exam
 
 
 * Github
-
+  
 ** What is github?
 
 - github allows you to store files "in the cloud"
@@ -158,3 +155,19 @@ a^2 + b^2 = c^2
         + using the anaconda launcher
 
     - let's look at [[http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html][this markdown notebook]]
+
+
+* Second part of lecture
+
+** we help
+
+- if you have problems installing the software
+- registering on github or datacamp
+- filling in the google form
+
+
+** you can leave
+
+- you can leave if:
+  - you have done all the items under [[http://janboone.github.io/programming-for-economists/index.html#important][the heading Important]]
+  - the test notebooks for python and R run on your computer

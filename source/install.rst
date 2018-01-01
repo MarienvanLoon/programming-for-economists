@@ -34,6 +34,12 @@ Required installs for this course:
   found at `this
   page. <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
   Note that you do not need to install R-studio for this (but you can; see below).
+
+Check your installation
+~~~~~~~~~~~~~~~~~~~~~~~
+  
+* to check whether your python install was successful, download and run :download:`this python notebook <python_test.ipynb>`
+* to check whether your R install was successful, download and run :download:`this R notebook <R_test.ipynb>`
   
 
 What if the installation does not work?
@@ -42,7 +48,7 @@ What if the installation does not work?
 Most of the time, the instructions above work and you are done. What can you do if they do not work?
 
 * ask us in class; we are usually able to solve your problems.
-* work in the cloud: go to `<https://mindaro.uvt.nl/>`_ and log in
+* work in the cloud: go to `<https://https://russet.uvt.nl/>`_ and log in
   with your TiU credentials. With this jupyter hub you can work both
   with R and python. This works perfectly fine, but there are two
   disadvantages. First, you cannot install packages yourself (but this
