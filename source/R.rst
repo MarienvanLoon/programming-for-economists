@@ -23,9 +23,10 @@ Week 5
 What to do before class:
 ------------------------
 
-* Datacamp: do the course `Intro to Python for Datascience <https://www.datacamp.com/courses/intro-to-python-for-data-science>`_
+* Datacamp: do the course `Introduction to R <https://www.datacamp.com/courses/free-introduction-to-r>`_
 * Assignment: :download:`this notebook <assignment5.ipynb>`
-
+* data needed for this notebook: :download:`download <assignment5_data.csv>`
+  
   * fill in the notebook
   * upload the notebook to github
   * add a link to this notebook in your README file on github
@@ -34,7 +35,7 @@ In class:
 ---------
 
 We work on this :download:`this notebook <week5.ipynb>`.
-
+And the data needed for this notebook: :download:`download <week5_data.csv>`
 
 
 .. _week6:
@@ -45,23 +46,13 @@ Week 6
 What to do before class:
 ------------------------
 
-* Datacamp: do the course `Pandas foundation <https://www.datacamp.com/courses/pandas-foundations>`_
-
-  * Chapters 1 and 2: "Data ingestion & inspection" and "Exploratory data analysis"
-  * *Note*: this week's datacamp chapters are part of your pass/fail grade
-
-* Assignment: :download:`this notebook <assignment6.ipynb>`
-  
-  * fill in the notebook
-  * upload the notebook to github
-  * add a link to this notebook in your README file on github
-  * *Note*: this week's assignment is part of your pass/fail grade
-
+.. use template above
     
 In class:
 ---------
 
-We work on this :download:`this notebook <week6.ipynb>`.
+.. use template above
+
 
 
 .. _week7:
@@ -73,21 +64,10 @@ Week 7
 What to do before class:
 ------------------------
 
-* Datacamp: do the course `Pandas foundation <https://www.datacamp.com/courses/pandas-foundations>`_
-
-  * Chapters 1 and 2: "Data ingestion & inspection" and "Exploratory data analysis"
-  * *Note*: this week's datacamp chapters are part of your pass/fail grade
-
-* Assignment: :download:`this notebook <assignment7.ipynb>`
-
-  * fill in the notebook
-  * upload the notebook to github
-  * add a link to this notebook in your README file on github
-  * *Note*: this week's assignment is part of your pass/fail grade
-
+.. use template above
     
 In class:
 ---------
 
-We work on this :download:`this notebook <week7.ipynb>`.
+.. use template above
 

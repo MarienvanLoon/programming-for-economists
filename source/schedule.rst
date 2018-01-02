@@ -58,6 +58,8 @@ these "Do It Yourself"-items will be graded with pass/fail; see below.
 Week 2: git/github/markdown/python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Week of Monday April 2nd, 2018.
+
 In this week we discuss github, markdown and we make a start with python in the jupyter notebook. :ref:`Click here <week2>` to see what you need to prepare for this week.
 
 
@@ -65,6 +67,7 @@ In this week we discuss github, markdown and we make a start with python in the 
 Week 3: python
 ~~~~~~~~~~~~~~
 
+Week of Monday April 9th, 2018.
 
 In this week we work on python in the jupyter notebook. :ref:`Click here <week3>` to see what you need to prepare for this week.
 
@@ -73,12 +76,16 @@ In this week we work on python in the jupyter notebook. :ref:`Click here <week3>
 Week 4: python
 ~~~~~~~~~~~~~~
 
-This is the last week with python. :ref:`Click here <week3>` to see what you need to prepare for this week.
+Week of Monday April 16th, 2018.
+
+This is the last week with python. :ref:`Click here <week4>` to see what you need to prepare for this week.
 
 
 
 Week 5: R
 ~~~~~~~~~
+
+Week of Monday April 30th, 2018.
 
 This is the first week with R in the jupyter notebook. :ref:`Click here <week5>` to see what you need to prepare for this week.
 
@@ -87,12 +94,16 @@ This is the first week with R in the jupyter notebook. :ref:`Click here <week5>`
 Week 6: R
 ~~~~~~~~~
 
+Week of Monday May 7th, 2018.
+
 This is the second week with R in the jupyter notebook. :ref:`Click here <week6>` to see what you need to prepare for this week.
 
 
 
 Week 7: R
 ~~~~~~~~~
+
+Week of Monday May 14th, 2018.
 
 This is the final week with R in the jupyter notebook. :ref:`Click here <week7>` to see what you need to prepare for this week.
 

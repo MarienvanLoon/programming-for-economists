@@ -51,10 +51,11 @@ Things to do if you want to follow this course:
 * create a repository called "assignments" as explained :ref:`here; <posting>`
   and save the address of this repository
 * after you have done this, go to the webform:
-* and fill in `this webform. <https://goo.gl/forms/n8h9sAuP5gAN6san1>`_
-* note that you need to fill in the webform **before March 15, 2017**
+* and fill in `this webform. <https://goo.gl/forms/AhgPhTw0L1TTGaNk2>`_
+* note that you need to fill in the webform **before March 23, 2018**
 * if you do not fill in the webform before the deadline, you *cannot* get a grade for this course
-  
+* we use the webform to plan the tutorials, keep an eye on BB before your first tutorial
+
 
 Questions
 ---------
@@ -71,7 +72,6 @@ Contents
    schedule
    rules
    install
-   markdown
    github
    python
    R

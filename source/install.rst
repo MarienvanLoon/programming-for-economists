@@ -48,7 +48,7 @@ What if the installation does not work?
 Most of the time, the instructions above work and you are done. What can you do if they do not work?
 
 * ask us in class; we are usually able to solve your problems.
-* work in the cloud: go to `<https://https://russet.uvt.nl/>`_ and log in
+* work in the cloud: go to `<https://russet.uvt.nl/>`_ and log in
   with your TiU credentials. With this jupyter hub you can work both
   with R and python. This works perfectly fine, but there are two
   disadvantages. First, you cannot install packages yourself (but this
