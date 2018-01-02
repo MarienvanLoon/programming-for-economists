@@ -47,7 +47,7 @@ Important
 Things to do if you want to follow this course:
 
 * enroll in `datacamp <https://www.datacamp.com/>`_ **with your Tilburg University email address**
-* sign up at `<github.com>`_
+* sign up at `<https://github.com/>`_
 * create a repository called "assignments" as explained :ref:`here; <posting>`
   and save the address of this repository
 * after you have done this, go to the webform:
