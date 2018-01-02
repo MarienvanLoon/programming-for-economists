@@ -35,6 +35,8 @@ Required installs for this course:
   page. <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
   Note that you do not need to install R-studio for this (but you can; see below).
 
+.. _check:
+  
 Check your installation
 ~~~~~~~~~~~~~~~~~~~~~~~
   

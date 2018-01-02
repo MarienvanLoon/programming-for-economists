@@ -70,7 +70,6 @@
     - see [[http://janboone.github.io/programming-for-economists/rules.html][Rules of the Game]] to see how your grade is determined
     - it depends on the items specified [[http://janboone.github.io/programming-for-economists/rules.html#grading][here]]
 
-
 ** Something went wrong?
 
     - we asked you to [[http://janboone.github.io/programming-for-economists/install.html][install some software]]
@@ -170,4 +169,4 @@ a^2 + b^2 = c^2
 
 - you can leave if:
   - you have done all the items under [[http://janboone.github.io/programming-for-economists/index.html#important][the heading Important]]
-  - the test notebooks for python and R run on your computer
+  - the [[http://janboone.github.io/programming-for-economists/install.html#check][test notebooks]] for python and R run on your computer

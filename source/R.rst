@@ -47,7 +47,11 @@ What to do before class:
 ------------------------
 
 .. use template above
-    
+
+  * *Note*: this week's datacamp chapters are part of your pass/fail grade
+
+  * *Note*: this week's assignment is part of your pass/fail grade
+   
 In class:
 ---------
 
@@ -65,7 +69,12 @@ What to do before class:
 ------------------------
 
 .. use template above
-    
+
+  * *Note*: this week's datacamp chapters are part of your pass/fail grade
+
+  * *Note*: this week's assignment is part of your pass/fail grade
+
+   
 In class:
 ---------
 
