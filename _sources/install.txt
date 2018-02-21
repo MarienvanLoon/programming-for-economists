@@ -24,34 +24,66 @@ solve your problem. If not; ask us in class.
 Required installs for this course:
 ----------------------------------
 
-* As we will be working with GitHub_, we need to install Git_. No need
-  to install a fancy GUI, as we will be working with either the website directly
-  or the command line.
+
+* The first programming language that we use for this course is
+  Python. We use the anaconda_ distribution. Make sure to install
+  python 3.X.
+
+  * during the installation of anaconda, check the box "add anaconda to the path"
+  * use the anaconda prompt to start the notebook by typing "jupyter notebook"
+  * later on, use the anaconda prompt to install packages by typing "conda install ..."
+  
+* We will be using R from the Jupyter notebook. Open a "terminal" in
+  Mac OS or "command prompt" (opdracht prompt) in Windows, type 'conda
+  install -c r r-essentials' and press enter. More details can be
+  found at `this
+  page. <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
+  Note that you do not need to install R-studio for this (but you can; see below).
+
+.. _check:
+  
+Check your installation
+~~~~~~~~~~~~~~~~~~~~~~~
+  
+* to check whether your python install was successful, download and run :download:`this python notebook <python_test.ipynb>`
+* to check whether your R install was successful, download and run :download:`this R notebook <R_test.ipynb>`
+  
+
+What if the installation does not work?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Most of the time, the instructions above work and you are done. What can you do if they do not work?
+
+* ask us in class; we are usually able to solve your problems.
+* work in the cloud: go to `<https://russet.uvt.nl/>`_ and log in
+  with your TiU credentials. With this jupyter hub you can work both
+  with R and python. This works perfectly fine, but there are two
+  disadvantages. First, you cannot install packages yourself (but this
+  is not necessary for the course). Second, you need an additional step to
+  upload your notebooks and to get your notebooks on github.
+* if you can work with python in the jupyter notebook but not with R, you can use R-studio. Instructions on how to install R-studio can be :download:`downloaded here. <install_R_studio.html>` 
+  
+Make sure that you have a working python and R environment before we
+start using python in class. If you only figure out that R or python
+is not working just before the deadline for an assignment, chances are
+that you will fail...
+
+  
+Optional install
+----------------
+
+* We will be working with GitHub_ in this course. Most people will use
+  the web-interface of github. In this case, you do not need to
+  install anything. If you want to use the command line interface, you
+  need to install Git_.
 
   * if you need more help here,
 	`<http://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_
 	may be useful and
 	`<http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup>`_.
 
-* Install R from the `website <https://www.r-project.org/>`_; you can `download
-  R here. <https://cran.r-project.org/>`_
-
-* The other programming language that we use for this course is python_ which we
-  will use with the ipython_ or `Jupyter <https://jupyter.org/>`_ notebook
-  interface. You can install these things separately, but it is easier to
-  install everything together. The best way to do this is to use the anaconda_
-  distribution. Make sure to install python 3.0. See the quantitative_ economics
-  website on how to install anaconda. If for some reason you cannot get anaconda
-  installed, ask us in class and we will help.
-* We will be using R from the Jupyter notebook. Follow instructions at the
-  following pages to set this up: `R for the notebook <http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html>`_ and `this page <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
-
-
-Optional install
-----------------
-
 If you want to work with github from the command line, you need a decent command
-prompt/terminal/shell to work with. Note that this is optional. Most operating
+prompt/terminal/shell to work with. Note that this is optional as most operating
 systems and browsers allow you to drag files onto github, which is simpler to
 start with.
 
@@ -64,13 +96,28 @@ start with.
   you may want to install iTerm2_, as it is more fancy and easier to
   work with.
 
-
-
 If you have installed all this: congratulations, you are done! If you
 experienced any problems, google to find a solution. If that does not work, ask us in class.
 
 
-.. _music: https://www.youtube.com/watch?v=9Q7Vr3yQYWQ
+Working with the command line
+-----------------------------
+
+There are a number of situations where you may want to work with the command line (terminal, shell, command prompt, opdrachtprompt etc.):
+
+* if you double click the icons of anaconda/jupyter, you may start up the notebook in the wrong directory (e.g. you cannot find the files of the course that you downloaded),
+* you may want to use git from the command line,
+* you are trying to type in 'conda install -c r r-essentials'
+
+In each of these cases, it is useful to know some basic commands. We give some here:
+
+* 'ls' (on Mac OS or linux) gives you an overview of the files in your current directory; on Windows the command is 'dir'
+* if there is a directory called 'dir' that you would like to move to, type 'cd dir' where 'cd' stands for "change directory"
+* if you want to move back to the directory above, type 'cd ..'
+* if you want to make a new directory 'dir' type 'mkdir dir' where 'mkdir' stands for "make directory"
+* in Windows: if you are on the 'C'-drive but would like to move to 'D', type 'D:'
+
+.. _music: https://www.youtube.com/watch?v=6SFNW5F8K9Y
 .. _Markdown: https://en.wikipedia.org/wiki/Markdown
 .. _GitHub: https://github.com/
 .. _Git: http://git-scm.com/downloads

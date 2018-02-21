@@ -16,18 +16,16 @@ grade (see below).
 Tutorials
 ---------
 
-In every week when there is a tutorial planned, there is also tutorial
-planned in a computer room (GZ 102). If you have your own
-computer/laptop, attend the standard tutorial. Only if you do not have
-access to your own computer, you may want to attend the tutorial in
-the computer room. If it turns out that everyone has their own
-computer, this computer room tutorial will be dropped.
+In every week when there is a tutorial planned, there is also tutorial ("LA")
+planned in a computer room (GZ 106). You only need to attend one of these!
+
+If you do not have a laptop, attend the tutorial in the computer room. If you have a laptop, you can choose whether to attend the lab-tutorial or a standard one.
 
 
 plan
 ----
 
-The plan for this course in the academic year 2016/2017 is as follows:
+The plan for this course in the academic year 2017/2018 is as follows:
 
 
 Week 1: installing software
@@ -40,150 +38,94 @@ Week 1: installing software
     University email address**
   * it is important that you use your Tilburg University email address as it
     gives you access to premium content (for which you have to pay otherwise)
-  * Have you done the things under :ref:`Important? <important>`
-  * recall the **deadline** of March 15, 2017
+  * Have you done the things under :ref:`Important? <important>` (and note the **deadline**)
   * Datacamp: Do it Yourself: Python Basics from `Intro to Python for Data Science. <https://www.datacamp.com/courses/intro-to-python-for-data-science>`_
 
 "Do It Yourself" means here that you do these things yourself before the
-lecture/tutorial in this week. Note that in the following weeks a number of
+lecture in this week. Note that in the following weeks a number of
 these "Do It Yourself"-items will be graded with pass/fail; see below.
 
-* Lecture: Mar 08, 2017 16:45-18:30	WZ 001
+* Lecture: Mar 21, 2017 12:45-14:30	CZ 115
 
   * `Introduction to the course and the teachers <http://janboone.github.io/programming-for-economists/_downloads/Introduction_Lecture.html>`_
-  * `Introduction to Markdown <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
+  * For the lecture we will go through :download:`this notebook <markdown_notebook.ipynb>`.
+  * And in html: `Introduction to Markdown <http://janboone.github.io/programming-for-economists/_downloads/markdown_notebook.html>`_
   * Introduction to Github
   * Q&A software install + github + datacamp
 
+    
 
-Week 2: git/github/markdown
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 2: git/github/markdown/python
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Homework:
+Week of Monday April 2nd, 2018.
 
-  * Datacamp: Do it Yourself: Python Lists
-  * the assignment :ref:`here. <week2>`
-  * fill in the google form
-
-* Tutorial: week of Monday March 13, 2017
-
-  * assignment week 2
-  * Git/Github/Markdown problems you encountered
-
-
-Week 3: python introduction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Homework:
-
-  * Datacamp: Do it Yourself: Functions and Packages: Pass/Fail grade (1)
-
-* Lecture: Apr 05, 2017 14:45-16:30	CZ 115
-
-  * For the lecture we will go through :download:`this notebook <python_lecture.ipynb>`. The html version of the notebook can be found `here. <http://janboone.github.io/programming-for-economists/_downloads/python_lecture.html>`_
+In this week we discuss github, markdown and we make a start with python in the jupyter notebook. :ref:`Click here <week2>` to see what you need to prepare for this week.
 
 
 
+Week 3: python
+~~~~~~~~~~~~~~
 
-Week 4: python (continued)
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week of Monday April 9th, 2018.
 
-* Homework:
-
-  * Datacamp: Do it Yourself: Numpy - Pass/Fail grade (2)
-  * the assignment :ref:`here. <week4>`
-  * upload your python notebook for assignment Week 4 on github
-
-* Tutorial: week of Monday April 10, 2017
-
-  * Review assignment Week 4 - tutorial Python
-  * Python problems you encountered (at datacamp or the assignment)
-
-
-Week 5: R introduction
-~~~~~~~~~~~~~~~~~~~~~~
-
-* Homework:
-
-  * Datacamp: Do it yourself: Introduction to R (completely)
-  * the assignment :ref:`here. <week5>`
-  * upload your python notebook for assignment Week 5 on github: Pass/Fail grade (3)
-
-* Tutorial: week of Monday April 17
-
-  * assignment week 5
-  * Python problems you encountered
-
-* Lecture: Apr 19, 2017 14:45-16:30	CZ 115
-
-  * For the lecture we will go through :download:`this notebook. <football.ipynb>`
-  * You need also to download :download:`the excelfile <football.xlsx>`
-  * Please save the files in the same folder.
-
-
-Week 6: Data Manipulation
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Homework:
-
-  * Datacamp: Data Manipulation in R with dplyr: Chapters 1,2 and 3
-  * the assignment :ref:`here. <week6>`
-  * upload your python notebook for assignment Week 6 on github: Pass/Fail grade (4)
-
-
-* Tutorial: week of Monday May 1, 2017
-
-  * In the tutorial we will go through :download:`this notebook. <tutorial2.ipynb>`
-  * You need also to download :download:`the csv file <NaturalPark.csv>`
-  * Please save the files in the same folder.
-
-* Lecture: May 03, 2017 14:45-16:30	CZ 115
-
-  * Introduction to data visualization with ggplot2
-  * For the lecture we will go through :download:`this notebook. <ggplot2.ipynb>`
-
-
-Week 7: R (continued)
-~~~~~~~~~~~~~~~~~~~~~
-
-* Homework:
-
-  * Datacamp: Data Manipulation in R with dplyr: Chapters 4 and 5
-
-* Lecture: May 10, 2017 14:45-16:30	CZ 115
-
-  * An application of data manipulation with dplyr
-  * For the lecture we will go through :download:`this notebook. <Example package dplyr.ipynb>`
-  * You need also to download :download:`the csv file <DataMoloch.csv>`
-  * Please save the files in the same folder.
+In this week we work on python in the jupyter notebook. :ref:`Click here <week3>` to see what you need to prepare for this week.
 
 
 
+Week 4: python
+~~~~~~~~~~~~~~
 
-Week 8: R (continued)
-~~~~~~~~~~~~~~~~~~~~~
+Week of Monday April 16th, 2018.
 
-* Homework:
-
-  * the assignment :ref:`here. <week8>`
-  * upload your python notebook for assignment Week 8 on github: Pass/Fail grade (5)
+This is the last week with python. :ref:`Click here <week4>` to see what you need to prepare for this week.
 
 
-* Tutorial: week of Monday May 15, 2017
 
-  * In the tutorial we will go through :download:`this notebook. <growth.ipynb>`
-  * You need also to download :download:`the csv file <cc.csv>`
-  * and we will also go through :download:`this notebook. <OECDdata.ipynb>`
-  * You need also to download :download:`the excel file <oecd16.xls>`
-  * In each case, please save the files in the same folder.
+Week 5: R
+~~~~~~~~~
 
+Week of Monday April 30th, 2018.
+
+This is the first week with R in the jupyter notebook. :ref:`Click here <week5>` to see what you need to prepare for this week.
+
+
+
+Week 6: R
+~~~~~~~~~
+
+Week of Monday May 7th, 2018.
+
+This is the second week with R in the jupyter notebook. :ref:`Click here <week6>` to see what you need to prepare for this week.
+
+
+
+Week 7: R
+~~~~~~~~~
+
+Week of Monday May 14th, 2018.
+
+This is the final week with R in the jupyter notebook. :ref:`Click here <week7>` to see what you need to prepare for this week.
+
+
+
+.. _finalassignment:
 
 Final Assignment
 ~~~~~~~~~~~~~~~~
 
-* publish your final assignment on github at Friday July 7th, 2017 at the latest.
+For the final assignment, we have an exam and a resit. On the day mentioned, we publish the R and python notebooks (and other files that may be needed) on Blackboard at 9:00 in the morning. You need to post your finished notebooks before 18:00 on the same day on github. (Note: github puts a timestamp on your upload)
+
+* publish your python and R assignments on github on June 7, 2018 (18:00 at the latest)
+
+Resit
+~~~~~
+
+* publish your python and R assignments on github on July 2, 2018 (18:00 at the latest)
 
 
+*Note* that the exam schedule may change during the semester. If the above dates are changed, we let you know via Blackboard.  
+  
 
 questions
 ---------
