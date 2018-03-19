@@ -1,0 +1,141 @@
+---
+title: "From wide to long and vice versa"
+author: "Mark Klik & Misja Mikkers"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+editor_options:
+  chunk_output_type: console
+---
+
+
+# Introduction
+
+A dataset often looks like:
+
+```{r, echo=FALSE}
+data1 <- data.frame(
+  ID= c(1,2,3),
+  Year_1 = c("a","e","i"),
+  Year_2 = c("b", "f", "j"),
+  Year_3 = c("c", "g", "k"),
+  Year_4 = c("d", "h", "l"), stringsAsFactors = FALSE)
+data1
+```
+
+But often we need the data to look like this:
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyr)
+library(tidyverse)
+
+gather(data1, Year, Value, Year_1:Year_4) %>%
+    arrange(ID)
+```
+
+For the creation of figures, you often need a long format. In this notebook you will learn how to change dataframes from wide to long and vice versa.
+
+
+# Packages
+
+```{r, results='hide', message=FALSE}
+library(tidyverse)
+```
+
+
+# Example
+
+## Dataframe
+
+First, we create a wide dataframe:
+
+```{r, results='hide'}
+data1 <- data.frame(
+  ID= c(1,2,3),
+  Year_1 = c("a","e","i"),
+  Year_2 = c("b", "f", "j"),
+  Year_3 = c("c", "g", "k"),
+  Year_4 = c("d", "h", "l"),
+  stringsAsFactors = FALSE)
+data1
+
+```
+
+
+
+## From _wide_ to _long_
+
+If we want to change the format from _wide_ to _long_ , we want to use the function `gather()` with the following syntax:
+
+```{r, eval=FALSE}
+gather(data, key = "key", value = "value", ...,)
+```
+
+The parameter _key_ represents the name of that you want to give to the _key-column_ . (In our example we want to call this column  _Year_). For the parameter _value_ you choose the name for the _value-column_ (in our example _Value_). For the dots you need the fill in the columns that contain a  _value_  (in our case _Year_1_ until _Year_4_).
+
+The command works like this:
+
+```{r}
+data2 <- data1 %>%
+  gather(Year, Value, Year_1:Year_4)
+print(data2)
+```
+
+We can sort the dataframe on ID.
+
+```{r}
+data2 <- data2 %>%
+  arrange(ID)
+print(data2)
+```
+
+
+## From _long_ to _wide_
+
+We can reverse the process with the function `spread()`. This function has the following syntax:
+
+```{r, eval=FALSE}
+spread(data, key, value, ...)
+```
+
+The parameter _key_ is the name of the column that contains the values to be spreaded (in our example _Year_). The parameter _value_ is the name of the column with _values_.
+
+```{r}
+data3 <- data2 %>%
+  spread(Year, Value)
+print(data3)
+```
+
+With this function you achieve the opposite of `gather()`:
+
+```{r}
+dataTest <- data1 %>%
+  gather(Year, Value, Year_1:Year_4) %>%
+  spread(Year, Value)
+
+dataTest == data1
+```
+
+# Assignment
+
+1. Read the file _growth.csv_ . Please note: because the _csv_ file containts numbers in the column names, R will put an X in front of the column names. Because we don't want the X, you need to add the command `check.names = FALSE`. Then the command will look something like this: `read.csv2("../Sourcedata/your_file_name.csv", check.names = FALSE)`
+2.  Change the file to a _long_ format. Please note that you can't use numbers as column names in the function `gather()`, because R would think e.g. 2002 is column 2002. How to solve this?
+
+```{r}
+oecd1 <-
+  
+
+oecd2 <-
+  
+  
+head(oecd2)
+```
+
+You can check whether the 2 methods deliver the same results with:
+
+```{r}
+sum(oecd1 != oecd2, na.rm = TRUE)
+```
+
+No differences!

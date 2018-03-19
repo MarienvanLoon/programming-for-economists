@@ -116,13 +116,16 @@ Final Assignment
 
 For the final assignment, we have an exam and a resit. On the day mentioned, we publish the R and python notebooks (and other files that may be needed) on Blackboard at 9:00 in the morning. You need to post your finished notebooks before 18:00 on the same day on github. (Note: github puts a timestamp on your upload)
 
-* publish your python and R assignments on github at ??? at the latest.
+* publish your python and R assignments on github on June 7, 2018 (18:00 at the latest)
 
 Resit
 ~~~~~
 
-* publish your python and R assignments on github at ??? at the latest.
+* publish your python and R assignments on github on July 2, 2018 (18:00 at the latest)
 
+
+*Note* that the exam schedule may change during the semester. If the above dates are changed, we let you know via Blackboard.  
+  
 
 questions
 ---------

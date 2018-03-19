@@ -1,0 +1,62 @@
+---
+title: "Short recapitulation ggplot"
+author: "Mark Klik & Misja Mikkers"
+output: html_notebook
+---
+
+# Packages
+
+```{r}
+library(tidyverse)
+```
+
+
+# Short recapitulation ggplot
+
+## Background and design of the ggplot2 package
+
+* In 2005  Hadley Wickham created ggplot as part of his PhD.
+* ggplot is an implementation of the 'Grammar of Graphics' (Wilkinson, 2005). 
+* `ggplot2` makes it possible to link a certain _aesthetic_ of a graph to a column in a dataframe. Examples of are _Aesthetics_ :
+
+    - color fill
+    - line color
+    - line size
+    - size and shape of points
+    - transparancy (alpha)
+    - x-coordinate
+    - y-coordinate
+    - line type
+    - etc
+
+## small example
+
+We will use the data-set of Americain presidents available of `R`:
+
+    
+```{r, }
+df <- presidential
+df
+```
+
+
+```{r}
+ggplot(df) +
+  geom_point(aes(start, name, size = start, colour = party)) +
+  geom_point(aes(start, name, shape = factor(end - start)), size = 1.5) +
+  labs(shape = "duration in days", size = "Starting year", colour = "Party") +
+  xlab("Start presidency") +
+  ylab("Name of the president") +
+  geom_text(aes(start, name, label = substr(name, 2, 3)), nudge_y = 0.35)
+```
+
+In this graph we made the following links between the _aesthetics_ and the columns:
+
+* color of the points is linked to the party of the president
+* the x-as is linked to the starting date of the presidency
+* the y-as is linked to the name of the president
+* the shape in the point is linked to the number of days in office
+* the letter is linked to the second and third letter of the name of the president
+
+
+

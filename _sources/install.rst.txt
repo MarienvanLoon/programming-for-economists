@@ -28,6 +28,11 @@ Required installs for this course:
 * The first programming language that we use for this course is
   Python. We use the anaconda_ distribution. Make sure to install
   python 3.X.
+
+  * during the installation of anaconda, check the box "add anaconda to the path"
+  * use the anaconda prompt to start the notebook by typing "jupyter notebook"
+  * later on, use the anaconda prompt to install packages by typing "conda install ..."
+  
 * We will be using R from the Jupyter notebook. Open a "terminal" in
   Mac OS or "command prompt" (opdracht prompt) in Windows, type 'conda
   install -c r r-essentials' and press enter. More details can be
@@ -35,6 +40,8 @@ Required installs for this course:
   page. <https://www.continuum.io/blog/developer/jupyter-and-conda-r>`_
   Note that you do not need to install R-studio for this (but you can; see below).
 
+.. _check:
+  
 Check your installation
 ~~~~~~~~~~~~~~~~~~~~~~~
   

@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Learning R &mdash; programming for economists 1.0 documentation</title>
+    <title>Learning R &#8212; programming for economists 1.0 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -17,21 +17,26 @@
         VERSION:     '1.0',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
       };
     </script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="programming for economists 1.0 documentation" href="index.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Github/Markdown/Python" href="python.html" />
    
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
   </head>
-  <body role="document">  
+  <body role="document">
+  
 
     <div class="document">
       <div class="documentwrapper">
@@ -40,7 +45,22 @@
             
   <div class="section" id="learning-r">
 <h1>Learning R<a class="headerlink" href="#learning-r" title="Permalink to this headline">¶</a></h1>
-<span class="target" id="r"></span><div class="section" id="datacamp">
+<span class="target" id="r"></span><p>R is a more specific programming language compared to Python.
+R is in essence a programming language aimed statistical programming. With R you can read data, manipulate data, do statistical analyses and visualize data.
+In the course we will give you an introduction to all these components.</p>
+<p>Preferably you will program R in the jupyter notebooks, but you are also allowed to use R Studio to program your notebooks. R Studio notebooks are very similar to jupyter notebooks. Instructions about the installation of R studio can be downloaded <a class="reference download internal" href="_downloads/install_R_studio.html" download=""><code class="xref download docutils literal"><span class="pre">here</span></code></a></p>
+<p>A few remarks:</p>
+<ol class="arabic simple">
+<li>We would advise you to make a directory structure with
+a. A folder called &#8220;Code&#8221;, in which you save the notebooks
+b. A folder called &#8220;Output&#8221; in which you can save output like figures, tables etc.
+c. A folder called &#8220;Sourcedata&#8221; in which you save the data needed to run the notebooks
+In notebooks used in the course we assume you have implemented this directory structure.</li>
+<li>If you need to install a package you can run the following command in your jupyter notebook:
+install.packages(&#8216;name_package&#8217;, repos=&#8217;<a class="reference external" href="http://cran.us.r-project.org">http://cran.us.r-project.org</a>&#8216;)</li>
+<li>If you work on <a class="reference external" href="https://russet.uvt.nl/">https://russet.uvt.nl/</a> the directory structure and packages are pre installed.</li>
+</ol>
+<div class="section" id="datacamp">
 <h2>Datacamp<a class="headerlink" href="#datacamp" title="Permalink to this headline">¶</a></h2>
 <p>Most of R you learn yourself using datacamp. Follow the on-line videos and do
 the on-line exercises. If you have questions about these, ask us during the
@@ -53,37 +73,98 @@ lecture or tutorial.</p>
 <h2>What to do before class:<a class="headerlink" href="#what-to-do-before-class" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Datacamp: do the course <a class="reference external" href="https://www.datacamp.com/courses/free-introduction-to-r">Introduction to R</a></li>
-<li>Assignment: <a class="reference download internal" href="_downloads/assignment5.ipynb"><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a></li>
-<li>data needed for this notebook: <a class="reference download internal" href="_downloads/assignment5_data.csv"><code class="xref download docutils literal"><span class="pre">download</span></code></a><ul>
-<li>fill in the notebook</li>
-<li>upload the notebook to github</li>
-<li>add a link to this notebook in your README file on github</li>
-</ul>
-</li>
 </ul>
 </div>
 <div class="section" id="in-class">
 <h2>In class:<a class="headerlink" href="#in-class" title="Permalink to this headline">¶</a></h2>
-<p>We work on this <a class="reference download internal" href="_downloads/week5.ipynb"><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a>.
-And the data needed for this notebook: <a class="reference download internal" href="_downloads/week5_data.csv"><code class="xref download docutils literal"><span class="pre">download</span></code></a></p>
+<p>In class we will work on different topics:</p>
+<ol class="arabic simple">
+<li>Read data
+We will use <a class="reference download internal" href="_downloads/Readdata.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for the jupyter notebooks (or <a class="reference download internal" href="_downloads/Readdata.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+And the 3 data files needed for this notebook:
+<a class="reference download internal" href="_downloads/football.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">1</span></code></a>
+<a class="reference download internal" href="_downloads/N1.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">2</span></code></a>
+<a class="reference download internal" href="_downloads/football.xlsx" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">3</span></code></a></li>
+<li>Merging
+We will use <a class="reference download internal" href="_downloads/Merging.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for the jupyter notebooks (or <a class="reference download internal" href="_downloads/merging.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+For this notebook, no data are needed</li>
+<li>For long to wide and vice versa
+We will use <a class="reference download internal" href="_downloads/Tidyr.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for the jupyter notebooks (or <a class="reference download internal" href="_downloads/tidyr.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+And the data needed for this notebook:
+<a class="reference download internal" href="_downloads/growth.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span></code></a></li>
+</ol>
 <div class="section" id="week-6">
 <span id="week6"></span><h3>Week 6<a class="headerlink" href="#week-6" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 <div class="section" id="id1">
 <h2>What to do before class:<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Datacamp: do the course <a class="reference external" href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-1">Data Visualization with ggplot2 (Part 1)</a></li>
+<li>Assignment: <a class="reference download internal" href="_downloads/Graded_assignment1.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for jupyter (or <a class="reference download internal" href="_downloads/graded_assignment_1.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+No data needed for this assignment<ul>
+<li>fill in the notebook</li>
+<li>upload the notebook to github</li>
+<li>add a link to this notebook in your README file on github</li>
+<li><em>Note</em>: this week&#8217;s datacamp course are part of your pass/fail grade</li>
+<li><em>Note</em>: this week&#8217;s assignment is part of your pass/fail grade</li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="id2">
 <h2>In class:<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>In class we will work on different topics:</p>
+<ol class="arabic simple">
+<li>A short recapitulation of ggplot2
+We will use <a class="reference download internal" href="_downloads/Recap_ggplot.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for the jupyter notebooks (or <a class="reference download internal" href="_downloads/recap_ggplot.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+For this notebook, no data are needed</li>
+<li>Functions and Controls
+We will use <a class="reference download internal" href="_downloads/Functions_and_controls.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for the jupyter notebooks (or <a class="reference download internal" href="_downloads/functions_and_controls.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+For this notebook, no data are needed</li>
+<li>Maps
+We will use <a class="reference download internal" href="_downloads/Maps.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for the jupyter notebooks (or <a class="reference download internal" href="_downloads/maps.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+And the 4 data files needed for this notebook:
+<a class="reference download internal" href="_downloads/nld_municipal_map.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">1</span></code></a>
+<a class="reference download internal" href="_downloads/nld_municipal_data.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">2</span></code></a>
+<a class="reference download internal" href="_downloads/nld_pc4_locations.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">3</span></code></a>
+<a class="reference download internal" href="_downloads/hospital.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">4</span></code></a></li>
+<li>Also <a class="reference download internal" href="_downloads/thematicmaps_2.1.tar.gz" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">this</span> <span class="pre">zip-file</span></code></a></li>
+</ol>
 <div class="section" id="week-7">
 <span id="week7"></span><h3>Week 7<a class="headerlink" href="#week-7" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 <div class="section" id="id3">
 <h2>What to do before class:<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Datacamp: do the course <a class="reference external" href="https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial">Data Manipulation in R with dplyr</a></li>
+<li>Assignment: <a class="reference download internal" href="_downloads/Graded_assignment_2.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for jupyter (or <a class="reference download internal" href="_downloads/graded_assignment_2.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+And the data needed for this notebook:
+<a class="reference download internal" href="_downloads/graded_assignment_2.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span></code></a>
+And you need to save this figure in the folder Sourcedata:
+<a class="reference download internal" href="_downloads/barchart.png" download=""><code class="xref download docutils literal"><span class="pre">download</span></code></a><ul>
+<li>fill in the notebook</li>
+<li>upload the notebook to github</li>
+<li>add a link to this notebook in your README file on github</li>
+<li><em>Note</em>: this week&#8217;s datacamp course are part of your pass/fail grade</li>
+<li><em>Note</em>: this week&#8217;s assignment is part of your pass/fail grade</li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="id4">
 <h2>In class:<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>In class we will work on two topics:</p>
+<ol class="arabic simple">
+<li>A very short recapitulation of dplyr
+We will use <a class="reference download internal" href="_downloads/Recap_dplyr.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for the jupyter notebooks (or <a class="reference download internal" href="_downloads/recap_dplyr.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+For this notebook, no data are needed</li>
+<li>An introduction to linear regression
+We will use <a class="reference download internal" href="_downloads/Linear_regression.ipynb" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for the jupyter notebooks (or <a class="reference download internal" href="_downloads/linear_regression.Rmd" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">notebook</span></code></a> for R Studio)
+And the data needed for this notebook:
+<a class="reference download internal" href="_downloads/football.csv" download=""><code class="xref download docutils literal"><span class="pre">download</span></code></a></li>
+</ol>
 </div>
 </div>
 
@@ -126,21 +207,18 @@ And the data needed for this notebook: <a class="reference download internal" hr
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/R.txt"
+      <li><a href="_sources/R.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -151,11 +229,11 @@ And the data needed for this notebook: <a class="reference download internal" hr
       &copy;2016/2017, Jan Boone and Misja Mikkers.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="_sources/R.txt"
+      <a href="_sources/R.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
