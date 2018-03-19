@@ -1,0 +1,167 @@
+---
+title: "Maps"
+author: "Mark Klik & Misja Mikkers"
+output: html_notebook
+---
+
+# Packages
+
+## Installing packages
+
+First, we have to install some packages to create custom maps:
+
+
+```{r, eval = FALSE}
+install.packages('maptools', repos='http://cran.us.r-project.org')
+install.packages('rgdal', repos='http://cran.us.r-project.org')
+install.packages('rgeos', repos='http://cran.us.r-project.org')
+install.packages("../Package//thematicmaps_2.1.tar.gz", repos = NULL, type = "source")
+```
+
+## Packages:
+
+```{r}
+library(thematicmaps)
+library(tidyverse)
+library(stringr)
+```
+
+# First map
+
+To create maps you need polygon-data (data describing the polygons that constitute the map expressed in _x_ and _y_ coordinates). It is possible to buy this data from commercial parties, but more and more polygon data are published as open source data. For this course we used open source data from the CBS (central bureau of statitics in the Netherlands) and [Imergis](http://www.imergis.nl/asp/47.asp). To save you time, we converted the polygon data to _csv_ format.
+
+For our first basic map, we need some data about the Netherlands. The polygon data from municipalities were previously saved as a _csv_ in the folder "Sourcedata".
+
+```{r}
+map_municipal <- read.csv2("../Sourcedata/nld_municipal_map.csv", stringsAsFactors = FALSE, dec = ".")
+head(map_municipal)
+```
+
+We will use package `thematicmaps` to make a map of the Netherlands. The package `thematicmaps` is an extension to the `ggplot2` package.
+
+The command `MapPlot()` creates the appropriate _theme_ in ggplot (basically everything white and square axis scales). With the command
+`AddMapLayer(MapPlot(), name_of_your_polygon_data)`, we can add a map to the drawing canvas:
+
+```{r}
+AddMapLayer(MapPlot(), map_municipal)
+
+```
+
+
+## Add information to the map:
+
+We will now add some information to the map. We will read a _csv_ file with some municapal data and calculate the percentage of females in each municipality. To do this, we need some commands of `dplyr` (which we will discuss in the next lecture). 
+
+```{r}
+pop_data <- read.csv2("../Sourcedata/nld_municipal_data.csv")
+map_info <- pop_data %>%
+    select(name, pop_65plus)
+
+str(map_info)
+```
+
+Now we can add a data-layer by using the `AddMapLayer()` command. With `AddMapLayer()`, data from two datasets is combined internally. To do that, the first columns of the dataframes should have identical purpose. Please check dat 'map_info' and 'map_municipal' can be merged by the variable "name"
+
+Please note, that because the package `thematicmaps` is based on `ggplot2`, we can add `ggplot2` commands. In this case, we have added a new legend title. Because the title is very long, we break the title into 2 substrings:
+
+
+```{r}
+AddMapLayer(MapPlot(), map_municipal, map_info) +
+  guides(fill = guide_legend(title = "Percentage of Elderly (65+)\nin the population"))
+```
+
+We can also add points to a map.
+
+First we read the polygon data of the PC4 level as pc4_locations. We have prepared this in a _csv_ file "nld_pc4_locations.csv".
+
+The _X_ and _Y_ colums have to be numeric. 
+
+Since we only want a few points, we will just take a sample of the data and call this _sample_locations_.
+
+```{r}
+pc4_locations <- read.csv2("../Sourcedata/nld_pc4_locations.csv")%>%
+  mutate(X = as.numeric(as.character(X))) %>%
+   mutate(Y = as.numeric(as.character(Y)))
+
+str(pc4_locations)
+```
+
+We will now take a sample of 10 locations:
+
+```{r}
+sample_locations <- pc4_locations %>%
+  sample_n(10, replace = FALSE)
+
+head(sample_locations)
+```
+
+We can now add our sample locations to the map using `AddPointsLayer()`:
+
+```{r}
+# display map with points
+AddMapLayer(MapPlot(), map_municipal) %>%
+  AddPointsLayer(sample_locations)
+```
+
+We can add a _Type_ to the specific locations:
+
+```{r}
+sample_color <- sample_locations %>%
+  mutate(Type = as.factor(sample(1:3, 10, replace = TRUE))) %>%
+  select(PC4, Type)
+```
+
+And then add a color to the points based on their type:
+
+```{r}
+AddMapLayer(MapPlot(), map_municipal) %>%
+  AddPointsLayer(sample_locations, sample_color, columnNameColor = "Type") 
+```
+
+Finally, we may want to add text to the map. Again, we will generate the data:
+
+```{r}
+sample_text <- sample_locations%>%
+  mutate(Label = c("A", "B", "C", "D", "E", "F", "G", "H", "I" ,"J")) %>%
+  select(PC4, Label)
+```
+
+We can now add text to the map with the command `AddTextLayer()`
+
+```{r}
+AddMapLayer(MapPlot(), map_municipal) %>%
+    AddTextLayer(sample_locations, sample_text)
+```
+
+
+# Assignment
+
+Create a map with hospital data. We have prepared a file _hospital.csv_ that contains data on hospitals.
+
+## Assignment 1:
+
+Read the data in as _hosp_data_ and inspect the first rows:
+
+```{r}
+hosp_data <- 
+head(hosp_data)
+```
+
+## Assignment 2:
+
+Merge the data (using `dplyr`) from _hosp_data_ and _pc4_locations_ in a new dataframe _hosp_loc_, so that only data in both data frames are retained. Check the structure of the data.
+
+
+```{r}
+hosp_loc <- 
+str(hosp_loc)
+```
+
+##Assignment 3:
+
+Create a map with the hospital locations as points and color the points according to the _type_ of hospital.
+
+
+```{r}
+
+```

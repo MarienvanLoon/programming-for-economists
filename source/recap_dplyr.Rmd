@@ -1,0 +1,22 @@
+---
+title: "Very short recapitulation of dplyr"
+author: "Mark Klik & Misja Mikkers"
+output: html_notebook
+---
+
+# Recapitulation of dplyr
+
+This is a very short recapitulation of `dplyr`. Both `tidyr` and `dplyr` are part of the package `tidyverse`. `ggplot2` is also part of the _tidyversum_ (for a complete list, [see here](https://www.tidyverse.org/packages/)). With `dplyr` you can manipulate dataframes.
+
+## Package `dplyr`
+
+In package `dplyr` there are 5 _verbs_ that are really important:
+
+1. `mutate()` creates new variables based on existing variables 
+2. `select()` selects variables (columns). `select` allows you to rename variables as well: 
+  `select(new_name = existing_name)`
+3. `filter()` selects observations (rows) based on a  logic test)
+4. `summarise()` reduces certain groups in a single value
+5. `arrange()` changes the order of the observations
+
+If you want guidance or help, you can use google or [this website](http://genomicsclass.github.io/book/pages/dplyr_tutorial.html).
