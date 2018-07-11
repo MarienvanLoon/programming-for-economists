@@ -3,6 +3,7 @@
 
 * exam June 7th, 2018
 
+The jupyter notebook of the exam can be found [[./exam_june_7_2018.ipynb][here]]. Right click on this link and then use something like "save link as".
 
 ** price effects of mergers
 
